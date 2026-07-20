@@ -1,0 +1,44 @@
+JUDAH MEETS — INITIAL WEBSITE PACK
+Version: 2026-07-20
+
+Primary goal:
+Sell parent-purchased 5–6 week video courses and curriculum packages.
+
+Launch pricing:
+- Video course: $34.99
+- Course + curriculum: $59.99
+- Sunday School/church package target: $149.99, subject to final licensing terms
+
+Brand/creative rules:
+- Warm chalkboard classroom feel.
+- Calm, welcoming, relational teaching.
+- Ms. Ryanne is the teacher/host.
+- Judah is the curious lion companion.
+- Judah does NOT wear a crown. The crown belongs to Jesus alone.
+- The Playground is a future kids area; no child accounts are planned for launch.
+
+Current technical state:
+- Static HTML/CSS/JS only.
+- No payment system, paywall, authentication, or video hosting connected yet.
+- Buttons marked Coming Soon are placeholders.
+
+Cloudflare Pages:
+If repository root contains these files:
+  Framework preset: None
+  Production branch: main
+  Build command: exit 0
+  Build output directory: /
+  Root directory: /
+
+If you place this folder under an existing repo as /judahmeets:
+  Root directory: judahmeets
+  Build command: exit 0
+  Build output directory: /
+
+Files:
+index.html
+styles.css
+script.js
+assets/ms-ryanne.jpg
+assets/concept-homepage.png
+handoff.txt
