@@ -1,21 +1,33 @@
-JUDAH MEETS WEBSITE UPDATE
+JUDAH MEETS — CHALKBOARD REFRESH
 
-Changes:
-- Removed Ms. Ryanne from website content entirely.
-- Added Judah + Noa as the recurring animated/CGI guides and potential podcast/video hosts.
-- Added character-card assets for Judah and Noa.
-- Updated course copy to describe planned fully animated/CGI presentation.
-- Updated Week 3 label to “Waiting Is Hard.”
-- Preserved references to existing assets/lion-logo.png and assets/studio-concept.png.
+PURPOSE
+Return the website to the original warm chalkboard/classroom identity while making Judah and Noa the focal point.
 
-Install:
-1. Unzip into your local judahmeets repository.
-2. Replace index.html.
-3. Copy the included assets into your existing assets folder.
-4. Keep your existing lion-logo.png and studio-concept.png.
-5. Run:
-   git add .
-   git commit -m "Replace Ms Ryanne with Judah and Noa"
-   git push origin main
+MAJOR CHANGES
+- Removes all Ms. Ryanne references.
+- Judah + Noa are the central guides/characters.
+- Restores dark chalkboard, warm wood, parchment, handwritten/chalk aesthetic.
+- Removes the old human-host/studio concept as the visual centerpiece.
+- Describes future content as animated adventures rather than promising a specific CGI production method.
+- Keeps current course pricing concepts: $34.99 video / $59.99 course + curriculum.
+- Updates the six-week lesson names to the corrected curriculum map.
+- Adds character cards for Judah and Noa.
+- Keeps future podcast/video expansion secondary to launching the lessons and curriculum first.
 
-If Cloudflare is connected to your GitHub repo/branch, the push should trigger deployment automatically.
+FILES
+index.html
+styles.css
+script.js
+assets/judah-logo.jpg
+assets/judah-character-card.jpg
+assets/noa-character-card.jpg
+handoff.txt
+
+INSTALL
+Replace the existing website files with this pack, then:
+
+git add .
+git commit -m "Restore chalkboard style with Judah and Noa"
+git push origin main
+
+Cloudflare should redeploy automatically if connected to the GitHub main branch.
