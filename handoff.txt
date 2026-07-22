@@ -1,33 +1,28 @@
-JUDAH MEETS — CHALKBOARD REFRESH
+JUDAH MEETS — CURRICULUM + BOOKS WEBSITE CLEANUP
 
-PURPOSE
-Return the website to the original warm chalkboard/classroom identity while making Judah and Noa the focal point.
+This release aligns the public website with what actually exists / is being built now.
 
-MAJOR CHANGES
-- Removes all Ms. Ryanne references.
-- Judah + Noa are the central guides/characters.
-- Restores dark chalkboard, warm wood, parchment, handwritten/chalk aesthetic.
-- Removes the old human-host/studio concept as the visual centerpiece.
-- Describes future content as animated adventures rather than promising a specific CGI production method.
-- Keeps current course pricing concepts: $34.99 video / $59.99 course + curriculum.
-- Updates the six-week lesson names to the corrected curriculum map.
-- Adds character cards for Judah and Noa.
-- Keeps future podcast/video expansion secondary to launching the lessons and curriculum first.
+CHANGES
+- Removed the Watch product/category.
+- Removed public promotion of a Judah & Noa podcast/show for now.
+- Removed CGI/animated/video-course claims.
+- Removed the future podcast promotional section.
+- Changed WATCH • LEARN • READ to LEARN • READ.
+- Refocused the first product on the six-week illustrated Bible study/curriculum.
+- Changed premature fixed pricing cards to Coming Soon while the final product bundle is being completed.
+- Kept Judah and Noa as the central characters and guides.
+- Preserved the restored chalkboard/classroom visual identity.
+- Updated sign-in placeholder language so it no longer promises video access.
 
-FILES
-index.html
-styles.css
-script.js
-assets/judah-logo.jpg
-assets/judah-character-card.jpg
-assets/noa-character-card.jpg
-handoff.txt
+INTERNAL FUTURE CONCEPT — NOT PROMOTED ON SITE
+A future Judah & Noa kids show/podcast may use CGI/animated characters and voice actors, with character chemistry inspired by a puppet-comedy-meets-kids-podcast format. Judah and Noa would discuss biblical lessons with humor, questions, and story-driven conversation. Do not publicly advertise this until there is a real pilot or production plan.
 
 INSTALL
-Replace the existing website files with this pack, then:
+Extract into the local judahmeets repository and replace the matching files.
 
+GIT
 git add .
-git commit -m "Restore chalkboard style with Judah and Noa"
+git commit -m "Refocus site on Judah Meets curriculum and books"
 git push origin main
 
-Cloudflare should redeploy automatically if connected to the GitHub main branch.
+If Cloudflare is connected to the main branch, deployment should trigger automatically.
