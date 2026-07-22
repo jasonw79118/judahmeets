@@ -1,34 +1,21 @@
-JUDAH MEETS WEBSITE PACK V3 — 2026-07-20
+JUDAH MEETS WEBSITE UPDATE
 
-This pack rebuilds the site around the APPROVED latest layout/look:
-- Warm blackboard classroom
-- Wood-framed parchment panels
-- Ms. Ryanne in denim beside Judah
-- Judah has NO crown
-- Courses are the primary commercial product
-- $34.99 video / $59.99 course + curriculum
-- Church/Sunday School packages
-- Judah Meets / Judah Learns books
-- Future Playground area
-- Free 5–6 minute course preview area
+Changes:
+- Removed Ms. Ryanne from website content entirely.
+- Added Judah + Noa as the recurring animated/CGI guides and potential podcast/video hosts.
+- Added character-card assets for Judah and Noa.
+- Updated course copy to describe planned fully animated/CGI presentation.
+- Updated Week 3 label to “Waiting Is Hard.”
+- Preserved references to existing assets/lion-logo.png and assets/studio-concept.png.
 
-IMPORTANT:
-assets/approved-layout-reference.png is the approved visual reference.
-assets/ryanne-judah-hero.png is the hero crop used by the coded site.
+Install:
+1. Unzip into your local judahmeets repository.
+2. Replace index.html.
+3. Copy the included assets into your existing assets folder.
+4. Keep your existing lion-logo.png and studio-concept.png.
+5. Run:
+   git add .
+   git commit -m "Replace Ms Ryanne with Judah and Noa"
+   git push origin main
 
-This is still a front-end proof of concept:
-- No payments yet
-- No authentication/paywall yet
-- No protected video hosting yet
-
-Cloudflare static deployment:
-Framework preset: None
-Production branch: main
-Build command: exit 0
-Build output directory: /
-Root directory: /
-
-Push:
-git add .
-git commit -m "Apply approved Judah Meets layout"
-git push origin main
+If Cloudflare is connected to your GitHub repo/branch, the push should trigger deployment automatically.

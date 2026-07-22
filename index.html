@@ -1,58 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Judah Meets | Big stories. Big questions. Mighty discoveries.</title>
-<meta name="description" content="Judah Meets offers parent-purchased video courses, curriculum, books and church resources with Ms. Ryanne and Judah.">
-<link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Judah Meets — Big Faith. Real Questions.</title>
+<style>
+:root{--gold:#d8aa3c;--gold2:#f0cf72;--cream:#f6f0df;--navy:#183246;--green:#425c48}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0d1110;color:var(--cream);line-height:1.5}
+a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92vw);margin:auto}
+header{position:sticky;top:0;background:#0d1110ee;border-bottom:1px solid #ffffff18;z-index:5}.nav{height:72px;display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800}.brand img{width:48px;height:48px;border-radius:50%}
+.navlinks{display:flex;gap:20px;align-items:center}.btn{background:var(--gold);color:#16130a;padding:11px 17px;border-radius:999px;font-weight:800}
+.hero{min-height:700px;background:linear-gradient(90deg,#060a09f5,#060a09a8),url('assets/studio-concept.png') center/cover no-repeat;display:flex;align-items:center}
+.hero h1,h2,h3{font-family:Georgia,serif}.hero h1{font-size:clamp(3.2rem,8vw,7rem);margin:0}.hero p{font-size:1.2rem;max-width:680px}.eyebrow{color:var(--gold2);font-weight:800;letter-spacing:.15em;text-transform:uppercase;font-size:.82rem}
+section{padding:80px 0}.course{background:#111715}.coursecard{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.board{border:12px solid #5b3822;padding:28px;background:#111917;min-height:360px}.board h3{font-size:2.4rem;color:var(--gold2)}
+.guides{background:var(--cream);color:#1b1d1b}.guidegrid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.guidecard{background:#fffaf0;border:1px solid #dbcba6;border-radius:24px;overflow:hidden;box-shadow:0 15px 40px #0002}
+.guidecard img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top}.guidecopy{padding:24px}.guidecopy h3{font-size:2.3rem;margin:0}
+.traits{display:flex;gap:8px;flex-wrap:wrap}.trait{background:#efe5ce;border-radius:999px;padding:7px 10px;font-weight:700;font-size:.88rem}
+.duo{margin-top:28px;background:#17231e;color:#eee6d6;padding:24px;border-radius:20px}.duo h3{color:var(--gold2);font-size:2rem;margin:0 0 8px}
+.map{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.stop{padding:16px;border:1px solid #ffffff18;border-radius:18px;min-height:150px;background:#ffffff08}.stop b{color:var(--gold2);font-size:1.6rem}
+footer{padding:32px 0;color:#999;background:#090c0b}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:850px){.coursecard,.guidegrid{grid-template-columns:1fr}.map{grid-template-columns:repeat(2,1fr)}.navlinks a:not(.btn){display:none}}
+</style></head>
 <body>
-<header>
-  <a class="logo" href="#home"><span>🐾</span><div><b>JUDAH MEETS</b><small>Big stories. Big questions. Mighty discoveries.</small></div></a>
-  <button class="menu" aria-label="Menu">☰</button>
-  <nav><a href="#courses">Courses</a><a href="#curriculum">Curriculum</a><a href="#books">Books</a><a href="#playground">The Playground</a><a href="#about">About</a><a class="sign" href="#signin">Sign In ♙</a></nav>
-</header>
+<header><div class="wrap nav">
+<a class="brand" href="#"><img src="assets/lion-logo.png" alt="Judah Meets logo"><span>JUDAH MEETS</span></a>
+<nav class="navlinks"><a href="#courses">Courses</a><a href="#guides">Meet Judah & Noa</a><a href="#parents">For Parents</a><a class="btn" href="#courses">Start Learning</a></nav>
+</div></header>
 
-<main id="home">
-<section class="top">
-  <div class="hero-img"><img src="assets/ryanne-judah-hero.png" alt="Ms. Ryanne in a denim jacket beside Judah the lion in a warm classroom"></div>
-  <div class="welcome">
-    <div class="script">Welcome!</div>
-    <h1>JUDAH<br>MEETS</h1>
-    <h2>Big stories. Big questions.<br>Mighty discoveries.</h2>
-    <p>Join Ms. Ryanne &amp; Judah as we explore the Bible, meet fascinating people, ask big questions, and discover how the stories of our faith and our world fit together.</p>
-    <div class="chalk">Where am I in the story? → <strong>God's Plan Unfolds</strong></div>
-    <div class="buttons"><a href="#preview" class="gold">▶ WATCH A FREE LESSON</a><a href="#courses" class="blue">EXPLORE COURSES</a></div>
-  </div>
-  <aside class="course" id="courses">
-    <div class="ribbon">FEATURED COURSE</div>
-    <small>MIGHTY FAITH PRESENTS</small>
-    <h2>THE PROMISE</h2><h3>From Abram to Isaac</h3>
-    <b>6 Weeks &nbsp; • &nbsp; Ages 7–11 &nbsp; • &nbsp; Ms. Ryanne &amp; Judah</b>
-    <p>God told Abram to leave everything familiar and follow Him. Where was he going? Why did God make him wait? And what did one promised child have to do with a much bigger story?</p>
-    <div class="prices">
-      <div><b>VIDEO COURSE</b><strong>$34.99</strong><small>Six complete 30–35 minute video lessons.</small><button>START THE JOURNEY</button></div>
-      <div><b>COMPLETE COURSE<br>+ CURRICULUM</b><strong>$59.99</strong><small>Videos • Lesson plans<br>Activities • Quizzes<br>Answer keys • More!</small><button>BEST VALUE</button></div>
-    </div>
-  </aside>
-</section>
+<main>
+<section class="hero"><div class="wrap">
+<div class="eyebrow">Bible learning for curious kids</div>
+<h1>Discover the Mighty Story of God.</h1>
+<p>Join Judah and Noa on story-driven learning adventures that help kids ask big questions, explore Scripture, and discover how God's promises unfold through one mighty story.</p>
+<p><a class="btn" href="#courses">Explore the First Course</a> &nbsp; <a href="#guides">Meet Judah & Noa</a></p>
+<p>One Bible. One Story. All About Jesus.</p>
+</div></section>
 
-<section class="tiles">
- <article><h2>🎬 WATCH<br><span>COURSES</span></h2><p>Six-week learning adventures with Ms. Ryanne &amp; Judah.</p><b>Bible • Faith • History and more</b><a href="#courses">EXPLORE COURSES</a></article>
- <article id="curriculum"><h2>✎ LEARN<br><span>CURRICULUM</span></h2><p>Take learning beyond the screen.</p><ul><li>Family &amp; Homeschool</li><li>Sunday School &amp; Churches</li><li>Christian School (coming soon)</li></ul><p>Lesson plans, quizzes, activities and teacher resources.</p><a href="#church">EXPLORE CURRICULUM</a></article>
- <article id="books"><h2>📖 READ<br><span>THE BOOKSHELF</span></h2><div class="bookcols"><div><b>JUDAH MEETS…</b><p>Stories about people worth meeting.</p><small>Isaac • Moses • David</small></div><div><b>JUDAH LEARNS…</b><p>Big ideas made understandable.</p><small>Prayer • Commandments • Constitution</small></div></div><a href="#">VISIT THE BOOKSHELF</a></article>
- <article id="church"><h2>FOR CHURCHES</h2><p>Bring Judah to Sunday School. Turn a six-week Judah Meets course into a complete Sunday-school series.</p><ul><li>6 Video Lessons</li><li>Teacher Lesson Plans</li><li>Reproducible Materials</li><li>Activities &amp; Quizzes</li><li>Discussion Questions</li><li>Answer Keys</li></ul><a href="#">EXPLORE CHURCH PACKAGES</a><small>Sunday School Package starting at $149.99</small></article>
-</section>
+<section class="course" id="courses"><div class="wrap">
+<div class="eyebrow">Our first adventure</div><h2>The Promise</h2>
+<p>A six-week journey from Abram to Isaac built around one big question: Can God be trusted to keep His promises?</p>
+<div class="coursecard">
+<div class="board"><div class="eyebrow">Course 01</div><h3>THE PROMISE</h3><p>From Abram to Isaac</p><p>Abram → Promise → Isaac → Israel → Jesus → Nations</p><p>“God calls. God promises. God keeps.”</p></div>
+<div><div class="eyebrow">6 weeks · ages 7–11</div><h3>Follow the promise.</h3>
+<p>Six story-driven video lessons.</p>
+<p>✓ Scripture-centered teaching<br>✓ Judah + Noa as animated guides<br>✓ Fully animated / CGI presentation planned<br>✓ Family discussion + printable curriculum<br>✓ “Follow the Promise” Bible connections</p>
+<a class="btn" href="#">Begin the Journey</a></div>
+</div></div></section>
 
-<section class="bottom">
- <article id="about"><h2>🐾 MEET YOUR GUIDES 🐾</h2><div class="guides"><div><img src="assets/ryanne-judah-hero.png"><h3>MEET MS. RYANNE</h3><p>A real elementary educator who believes children deserve more than simplified answers.</p></div><div><div class="lion">🦁</div><h3>MEET JUDAH</h3><p>Judah has questions. Lots of questions. Fortunately, that's exactly how great discoveries begin.</p></div></div></article>
- <article id="playground"><h2>THE PLAYGROUND</h2><h3>A place just for kids.</h3><strong>COMING SOON!</strong><div class="play"><span>▶ WATCH <small>Free Judah shorts</small></span><span>◉ PLAY <small>Games &amp; puzzles</small></span><span>✎ CREATE <small>Coloring &amp; activities</small></span><span>⌕ EXPLORE <small>Maps, timelines &amp; discoveries</small></span></div></article>
- <aside><div class="door">Psst…<br>Judah says<br>there's something<br>behind this door.<br>↓</div></aside>
-</section>
+<section class="guides" id="guides"><div class="wrap">
+<div class="eyebrow" style="color:#8a671d">Your guides through the story</div>
+<h2>Meet Judah & Noa.</h2><p>Two very different personalities. One great adventure through God's Word.</p>
+<div class="guidegrid">
+<article class="guidecard"><img src="assets/judah-character-card.jpg" alt="Judah character card"><div class="guidecopy">
+<h3>Judah</h3><p>Curious, energetic, and always ready for an adventure. Judah asks the questions kids are already thinking—and sometimes jumps in before he has the whole plan.</p>
+<div class="traits"><span class="trait">Curious</span><span class="trait">Imaginative</span><span class="trait">Adventurous</span><span class="trait">Loyal</span></div>
+</div></article>
+<article class="guidecard"><img src="assets/noa-character-card.jpg" alt="Noa character card"><div class="guidecopy">
+<h3>Noa</h3><p>Brave, encouraging, cautious, and wise—with just enough sarcasm to keep Judah grounded. Noa loves to laugh, notices details others miss, and helps the team think before they leap.</p>
+<div class="traits"><span class="trait">Brave</span><span class="trait">Wise</span><span class="trait">Encouraging</span><span class="trait">Loves to laugh</span></div>
+</div></article>
+</div>
+<div class="duo"><h3>Better together.</h3><p>Judah brings curiosity and momentum. Noa brings wisdom, courage, encouragement, and a well-timed reality check. Together they explore Scripture, ask real questions, follow God's promises, and make hard ideas approachable for kids.</p></div>
+</div></section>
 
-<section id="preview" class="preview"><h2>FREE COURSE PREVIEW</h2><div class="video">▶<br><small>5–6 minute public introduction will appear here.</small></div><p>Parents can experience the teaching style and course before purchasing. Full lessons and curriculum will be protected behind the parent purchase area.</p></section>
-<section id="signin" class="signin"><h2>MY COURSES</h2><p>Parent purchase library coming with the commerce phase: buy → sign in → watch → download.</p></section>
+<section id="parents"><div class="wrap">
+<div class="eyebrow">A journey through one connected story</div><h2>Not just a lesson. Follow it all the way.</h2>
+<div class="map">
+<div class="stop"><b>01</b><h3>Go!</h3><small>God Calls Abram</small></div>
+<div class="stop"><b>02</b><h3>Count the Stars</h3><small>Trust while waiting</small></div>
+<div class="stop"><b>03</b><h3>Waiting Is Hard</h3><small>God renews His promise</small></div>
+<div class="stop"><b>04</b><h3>Impossible?</h3><small>Nothing is too hard for God</small></div>
+<div class="stop"><b>05</b><h3>God Provides</h3><small>Abraham's greatest test</small></div>
+<div class="stop"><b>06</b><h3>The Promise Continues</h3><small>Isaac and the bigger story</small></div>
+</div></div></section>
 </main>
-<footer>© 2026 Judah Meets. All rights reserved. &nbsp; Privacy Policy &nbsp; Terms of Use &nbsp; Contact Us</footer>
-<script src="script.js"></script>
+
+<footer><div class="wrap foot"><div>© Judah Meets. All rights reserved.</div><div>Judah · Noa · Courses · Curriculum · Books</div></div></footer>
 </body></html>
