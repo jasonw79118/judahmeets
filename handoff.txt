@@ -1,23 +1,17 @@
-JUDAH MEETS — CHARACTER CUTOUT + COPYRIGHT FIX
+JUDAH MEETS — CLEAN CHARACTER REFRESH
 
-CORRECTIONS
-- Meet Judah & Noa no longer displays the full character-card/poster images.
-- The supplied individual front-view character references were used to create standalone transparent-background PNG cutouts:
-  assets/judah-cutout.png
-  assets/noa-cutout.png
-- Judah and Noa now appear directly in the website design without a rectangular image background.
-- Copyright is explicitly displayed as:
+FIXED
+- Judah and Noa now use isolated transparent-background PNG characters made from the supplied front-view source art.
+- Removed title labels, character-card borders, page backgrounds, and other visuals from the character images.
+- Meet Judah & Noa should show only the characters themselves above their website text panels.
+- Removed old card/poster/cutout assets so the browser cannot accidentally display them.
+- Copyright is forced to:
   © 2026 JudahMeets, LLC. All Rights Reserved.
-- Removed obsolete character-card/poster image assets from the package to avoid accidental use.
 
-BRAND
-- Legal/company name: JudahMeets, LLC.
-- Character name: Noa.
-- No Ms. Ryanne references.
-- No Watch/podcast promotion yet.
-- Keep Learn + Read and the chalkboard/classroom design.
+IMPORTANT
+After deployment, hard-refresh the browser (Ctrl+F5) because Cloudflare/browser caching may otherwise show the previous character assets.
 
 GIT
 git add .
-git commit -m "Use Judah and Noa cutouts and fix LLC copyright"
+git commit -m "Clean Judah and Noa character cutouts"
 git push origin main
