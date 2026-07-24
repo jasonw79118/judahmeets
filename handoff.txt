@@ -1,17 +1,16 @@
-JUDAH MEETS — CLEAN CHARACTER REFRESH
+JUDAH MEETS — MEET JUDAH & NOA FEATURE UPDATE
 
-FIXED
-- Judah and Noa now use isolated transparent-background PNG characters made from the supplied front-view source art.
-- Removed title labels, character-card borders, page backgrounds, and other visuals from the character images.
-- Meet Judah & Noa should show only the characters themselves above their website text panels.
-- Removed old card/poster/cutout assets so the browser cannot accidentally display them.
-- Copyright is forced to:
+CHANGES
+- Replaced the separate Judah and Noa character frames with the approved unified “Meet Your Guides” artwork.
+- This artwork now anchors the Meet Judah & Noa section.
+- Removed the cheap-looking standalone cutout treatment from the guide section.
+- Kept supporting “Better Together” copy below the artwork.
+- Copyright remains:
   © 2026 JudahMeets, LLC. All Rights Reserved.
-
-IMPORTANT
-After deployment, hard-refresh the browser (Ctrl+F5) because Cloudflare/browser caching may otherwise show the previous character assets.
+- No Watch/podcast promotion yet.
+- Keeps Learn + Read and the chalkboard/classroom identity.
 
 GIT
 git add .
-git commit -m "Clean Judah and Noa character cutouts"
+git commit -m "Update Meet Judah and Noa feature artwork"
 git push origin main
