@@ -1,16 +1,19 @@
-JUDAH MEETS — MEET JUDAH & NOA FEATURE UPDATE
+JUDAH MEETS — BIBLE STUDY COMMERCIAL VIDEO UPDATE
 
 CHANGES
-- Replaced the separate Judah and Noa character frames with the approved unified “Meet Your Guides” artwork.
-- This artwork now anchors the Meet Judah & Noa section.
-- Removed the cheap-looking standalone cutout treatment from the guide section.
-- Kept supporting “Better Together” copy below the artwork.
-- Copyright remains:
+- Added uploaded MP4 commercial:
+  assets/judahmeets-bible-study-commercial.mp4
+- Added a “See the Adventure” section before Meet Judah & Noa.
+- Video uses native HTML5 controls.
+- Presented only as a commercial/introduction for the current Bible study.
+- Does not promote a future podcast/show.
+- Copyright:
   © 2026 JudahMeets, LLC. All Rights Reserved.
-- No Watch/podcast promotion yet.
-- Keeps Learn + Read and the chalkboard/classroom identity.
 
 GIT
 git add .
-git commit -m "Update Meet Judah and Noa feature artwork"
+git commit -m "Add Judah Meets Bible study commercial"
 git push origin main
+
+NOTE
+If GitHub rejects the push because the MP4 exceeds repository limits, host the MP4 separately (for example Cloudflare R2/Stream) and replace the source URL in index.html.

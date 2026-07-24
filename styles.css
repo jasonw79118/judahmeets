@@ -127,3 +127,22 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
 @media(max-width:700px){
   .meet-guides-feature{border-width:6px}
 }
+
+.study-video{
+  background:#eadbc0;
+  color:var(--ink);
+}
+.video-shell{
+  width:min(1050px,92vw);
+  margin:0 auto;
+  background:#0d1512;
+  border:12px solid var(--wood);
+  box-shadow:0 20px 55px rgba(0,0,0,.28);
+  padding:10px;
+}
+.video-shell video{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#000;
+}
