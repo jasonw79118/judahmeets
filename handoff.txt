@@ -1,19 +1,32 @@
-JUDAH MEETS — BIBLE STUDY COMMERCIAL VIDEO UPDATE
+JUDAH MEETS — YOUTUBE VIDEO EMBED UPDATE
+
+VIDEO
+The Bible study commercial is now hosted on YouTube:
+https://youtu.be/K6FWv2bt74A
 
 CHANGES
-- Added uploaded MP4 commercial:
-  assets/judahmeets-bible-study-commercial.mp4
-- Added a “See the Adventure” section before Meet Judah & Noa.
-- Video uses native HTML5 controls.
-- Presented only as a commercial/introduction for the current Bible study.
-- Does not promote a future podcast/show.
+- Removed the large local MP4 from the website package.
+- Replaced the native HTML5 video player with a responsive YouTube embed.
+- Keeps the “See the Adventure” section as a commercial/introduction to the Bible study.
+- Does not promote a future podcast/show yet.
+- Keeps the chalkboard/classroom design and Judah + Noa focus.
 - Copyright:
   © 2026 JudahMeets, LLC. All Rights Reserved.
 
-GIT
+IMPORTANT GIT CLEANUP
+Because the large MP4 was already committed/pushed previously, removing it from the current working tree will stop future deployments from serving it, but the old file may remain in Git history.
+
+NORMAL UPDATE COMMANDS
 git add .
-git commit -m "Add Judah Meets Bible study commercial"
+git commit -m "Replace local video with YouTube embed"
 git push origin main
 
-NOTE
-If GitHub rejects the push because the MP4 exceeds repository limits, host the MP4 separately (for example Cloudflare R2/Stream) and replace the source URL in index.html.
+IF THE OLD 93 MB FILE STILL EXISTS IN YOUR LOCAL REPO
+Remove it from tracking before the commit:
+git rm --cached JudahMeets_Full_Intro.mp4
+git rm --cached assets/judahmeets-bible-study-commercial.mp4
+
+Use whichever path actually exists. If Git says the path does not match any files, just continue with the normal commands above.
+
+YOUTUBE EMBED
+https://www.youtube.com/embed/K6FWv2bt74A
