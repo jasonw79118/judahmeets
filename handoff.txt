@@ -1,32 +1,17 @@
-JUDAH MEETS — YOUTUBE VIDEO EMBED UPDATE
+JUDAH MEETS — CLEAN NO-LOCAL-VIDEO DEPLOY PACKAGE
 
-VIDEO
-The Bible study commercial is now hosted on YouTube:
+This package contains NO MP4/MOV/WEBM video files.
+
+The commercial remains on the website only through the YouTube embed:
 https://youtu.be/K6FWv2bt74A
 
-CHANGES
-- Removed the large local MP4 from the website package.
-- Replaced the native HTML5 video player with a responsive YouTube embed.
-- Keeps the “See the Adventure” section as a commercial/introduction to the Bible study.
-- Does not promote a future podcast/show yet.
-- Keeps the chalkboard/classroom design and Judah + Noa focus.
-- Copyright:
-  © 2026 JudahMeets, LLC. All Rights Reserved.
+WHY THIS FIX IS NEEDED
+Cloudflare Workers static asset deployment scans the files in the current repository checkout. If the old ~93 MB MP4 is still tracked anywhere in the repository, Wrangler can reject the deployment even if index.html no longer references that file.
 
-IMPORTANT GIT CLEANUP
-Because the large MP4 was already committed/pushed previously, removing it from the current working tree will stop future deployments from serving it, but the old file may remain in Git history.
+IMPORTANT
+Replacing index.html alone is not enough. Delete the old MP4 from the Git working tree/current branch, commit that deletion, and push.
 
-NORMAL UPDATE COMMANDS
-git add .
-git commit -m "Replace local video with YouTube embed"
-git push origin main
+See REMOVE_LARGE_VIDEO_FROM_GIT.txt for exact commands.
 
-IF THE OLD 93 MB FILE STILL EXISTS IN YOUR LOCAL REPO
-Remove it from tracking before the commit:
-git rm --cached JudahMeets_Full_Intro.mp4
-git rm --cached assets/judahmeets-bible-study-commercial.mp4
-
-Use whichever path actually exists. If Git says the path does not match any files, just continue with the normal commands above.
-
-YOUTUBE EMBED
-https://www.youtube.com/embed/K6FWv2bt74A
+Copyright:
+© 2026 JudahMeets, LLC. All Rights Reserved.

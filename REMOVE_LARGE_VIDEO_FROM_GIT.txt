@@ -1,0 +1,14 @@
+# Run these commands from C:\Users\jason\judahmeets
+
+# 1) Remove the known large video files from the current Git tree if they exist.
+git rm -f --ignore-unmatch JudahMeets_Full_Intro.mp4
+git rm -f --ignore-unmatch "JudahMeets_Full_Intro(1).mp4"
+git rm -f --ignore-unmatch assets/judahmeets-bible-study-commercial.mp4
+
+# 2) Find any other video files still tracked by Git.
+git ls-files | findstr /I /R "\.mp4$ \.mov$ \.m4v$ \.webm$"
+
+# 3) Commit the deletion plus the YouTube-embed website files.
+git add -A
+git commit -m "Remove local video assets and use YouTube embed"
+git push origin main
