@@ -1,18 +1,23 @@
-JUDAH MEETS — OFFICIAL CHARACTER CARD + LLC UPDATE
+JUDAH MEETS — CHARACTER CUTOUT + COPYRIGHT FIX
 
-This package is based on the latest Learn + Read chalkboard website.
+CORRECTIONS
+- Meet Judah & Noa no longer displays the full character-card/poster images.
+- The supplied individual front-view character references were used to create standalone transparent-background PNG cutouts:
+  assets/judah-cutout.png
+  assets/noa-cutout.png
+- Judah and Noa now appear directly in the website design without a rectangular image background.
+- Copyright is explicitly displayed as:
+  © 2026 JudahMeets, LLC. All Rights Reserved.
+- Removed obsolete character-card/poster image assets from the package to avoid accidental use.
 
-UPDATED
-- Uses the supplied official Judah_Character_Card.png.
-- Uses the supplied official Noa_Character_Card.png.
-- Meet Judah & Noa section now displays these full official character cards.
-- Standard copyright: © 2026 JudahMeets, LLC. All Rights Reserved.
-- Removed obsolete cropped character-card JPGs.
-- Keeps the Learn + Read strategy.
-- Does not promote Watch, CGI, or the future podcast yet.
-- Keeps the chalkboard/classroom identity.
+BRAND
+- Legal/company name: JudahMeets, LLC.
+- Character name: Noa.
+- No Ms. Ryanne references.
+- No Watch/podcast promotion yet.
+- Keep Learn + Read and the chalkboard/classroom design.
 
-GIT COMMANDS
+GIT
 git add .
-git commit -m "Add official Judah and Noa cards and LLC copyright"
+git commit -m "Use Judah and Noa cutouts and fix LLC copyright"
 git push origin main
