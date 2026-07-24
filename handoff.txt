@@ -1,28 +1,18 @@
-JUDAH MEETS — CURRICULUM + BOOKS WEBSITE CLEANUP
+JUDAH MEETS — OFFICIAL CHARACTER CARD + LLC UPDATE
 
-This release aligns the public website with what actually exists / is being built now.
+This package is based on the latest Learn + Read chalkboard website.
 
-CHANGES
-- Removed the Watch product/category.
-- Removed public promotion of a Judah & Noa podcast/show for now.
-- Removed CGI/animated/video-course claims.
-- Removed the future podcast promotional section.
-- Changed WATCH • LEARN • READ to LEARN • READ.
-- Refocused the first product on the six-week illustrated Bible study/curriculum.
-- Changed premature fixed pricing cards to Coming Soon while the final product bundle is being completed.
-- Kept Judah and Noa as the central characters and guides.
-- Preserved the restored chalkboard/classroom visual identity.
-- Updated sign-in placeholder language so it no longer promises video access.
+UPDATED
+- Uses the supplied official Judah_Character_Card.png.
+- Uses the supplied official Noa_Character_Card.png.
+- Meet Judah & Noa section now displays these full official character cards.
+- Standard copyright: © 2026 JudahMeets, LLC. All Rights Reserved.
+- Removed obsolete cropped character-card JPGs.
+- Keeps the Learn + Read strategy.
+- Does not promote Watch, CGI, or the future podcast yet.
+- Keeps the chalkboard/classroom identity.
 
-INTERNAL FUTURE CONCEPT — NOT PROMOTED ON SITE
-A future Judah & Noa kids show/podcast may use CGI/animated characters and voice actors, with character chemistry inspired by a puppet-comedy-meets-kids-podcast format. Judah and Noa would discuss biblical lessons with humor, questions, and story-driven conversation. Do not publicly advertise this until there is a real pilot or production plan.
-
-INSTALL
-Extract into the local judahmeets repository and replace the matching files.
-
-GIT
+GIT COMMANDS
 git add .
-git commit -m "Refocus site on Judah Meets curriculum and books"
+git commit -m "Add official Judah and Noa cards and LLC copyright"
 git push origin main
-
-If Cloudflare is connected to the main branch, deployment should trigger automatically.
