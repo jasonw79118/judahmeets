@@ -1,17 +1,12 @@
-JUDAH MEETS — CLEAN NO-LOCAL-VIDEO DEPLOY PACKAGE
+JUDAH MEETS — NO-PRICING PLAN STRUCTURE UPDATE
 
-This package contains NO MP4/MOV/WEBM video files.
+- Removed all public pricing.
+- Added Single Study, Semester Plan, and Annual Plan concepts without prices.
+- Changed CTA to Join the Interest List.
+- Keeps YouTube embed and contains no local video files.
+- Copyright: © 2026 JudahMeets, LLC. All Rights Reserved.
 
-The commercial remains on the website only through the YouTube embed:
-https://youtu.be/K6FWv2bt74A
-
-WHY THIS FIX IS NEEDED
-Cloudflare Workers static asset deployment scans the files in the current repository checkout. If the old ~93 MB MP4 is still tracked anywhere in the repository, Wrangler can reject the deployment even if index.html no longer references that file.
-
-IMPORTANT
-Replacing index.html alone is not enough. Delete the old MP4 from the Git working tree/current branch, commit that deletion, and push.
-
-See REMOVE_LARGE_VIDEO_FROM_GIT.txt for exact commands.
-
-Copyright:
-© 2026 JudahMeets, LLC. All Rights Reserved.
+GIT
+git add .
+git commit -m "Remove pricing and add study plan options"
+git push origin main
