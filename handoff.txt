@@ -1,12 +1,13 @@
-JUDAH MEETS — NO-PRICING PLAN STRUCTURE UPDATE
+JUDAH MEETS — EMBEDDED CONTACT FORM UPDATE
 
-- Removed all public pricing.
-- Added Single Study, Semester Plan, and Annual Plan concepts without prices.
-- Changed CTA to Join the Interest List.
+- Removed the public plan/pricing section.
+- Added Contact navigation.
+- Embedded the Google Form directly into the website.
+- Updated calls-to-action to Request More Information.
 - Keeps YouTube embed and contains no local video files.
 - Copyright: © 2026 JudahMeets, LLC. All Rights Reserved.
 
 GIT
 git add .
-git commit -m "Remove pricing and add study plan options"
+git commit -m "Embed Judah Meets contact form"
 git push origin main
