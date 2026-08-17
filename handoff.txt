@@ -11,3 +11,14 @@ GIT
 git add .
 git commit -m "Embed Judah Meets contact form"
 git push origin main
+
+
+UPDATE — 2026-08-13
+- Built from the current Judah/Noa site structure.
+- Updated the embedded YouTube video to:
+  https://www.youtube.com/embed/J6zsBI6po10?si=3OgHy-DRRXfZKA6Q&rel=0
+- Added the uploaded Promises Kept and Creation covers as a simple promotional curriculum gallery.
+- No pricing was added.
+- No standalone video-course product language was added.
+- No Ms. Ryanne site content was added.
+- Existing Judah/Noa site structure and messaging otherwise preserved.
