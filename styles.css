@@ -50,7 +50,7 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   background:transparent;
 }
 .guide-card{
-  overflow:hidden;
+  overflow:visible;
 }
 .guide-card .guide-copy{
   position:relative;
@@ -117,7 +117,7 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   background:#0f1714;
   border:10px solid var(--wood);
   box-shadow:0 18px 48px rgba(0,0,0,.45);
-  overflow:hidden;
+  overflow:visible;
 }
 .meet-guides-feature img{
   display:block;
@@ -155,7 +155,7 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   position:relative;
   width:100%;
   aspect-ratio:16/9;
-  overflow:hidden;
+  overflow:visible;
   background:#000;
 }
 .youtube-frame iframe{
@@ -245,7 +245,7 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
     linear-gradient(rgba(255,255,255,.015),rgba(255,255,255,.015)),
     #171a19;
   box-shadow:inset 0 0 70px rgba(0,0,0,.45);
-  overflow:hidden;
+  overflow:visible;
 }
 .curriculum-board-heading{
   text-align:center;
@@ -273,7 +273,7 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   line-height:1.18;
 }
 .curriculum-scene{
-  min-height:660px;
+  min-height:570px;
   display:grid;
   grid-template-columns:1fr 320px 1fr;
   align-items:center;
@@ -282,8 +282,8 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   position:relative;
 }
 .curriculum-cover{
-  width:390px;
-  height:550px;
+  width:320px;
+  height:452px;
   margin:0;
   display:flex;
   align-items:center;
@@ -292,12 +292,12 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
 }
 .curriculum-cover img{
   display:block;
-  width:390px;
-  height:550px;
+  width:320px;
+  height:452px;
   object-fit:contain;
   background:transparent;
   border:0;
-  box-shadow:0 24px 48px rgba(0,0,0,.42);
+  box-shadow:0 18px 36px rgba(0,0,0,.38);
   transform-origin:50% 84%;
 }
 .curriculum-cover-left{
@@ -342,7 +342,7 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
 }
 .coming-soon-plank{
   width:min(680px,90%);
-  margin:-18px auto 0;
+  margin:8px auto 0;
   padding:16px 24px 13px;
   text-align:center;
   color:#fff2d2;
@@ -376,8 +376,8 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   }
   .curriculum-cover,
   .curriculum-cover img{
-    width:315px;
-    height:445px;
+    width:255px;
+    height:360px;
   }
   .curriculum-center-copy p{font-size:.88rem}
   .one-story{font-size:1.2rem}
@@ -413,4 +413,53 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
   .curriculum-cover-left img{transform:rotate(-10deg)}
   .curriculum-cover-right img{transform:rotate(10deg)}
   .coming-soon-plank{margin-top:10px}
+}
+
+
+/* 2026-08-17 cover clipping fix */
+.curriculum-preview{
+  overflow:visible !important;
+}
+.curriculum-board{
+  overflow:visible !important;
+  padding-left:52px;
+  padding-right:52px;
+}
+.curriculum-scene{
+  min-height:570px !important;
+}
+.curriculum-cover,
+.curriculum-cover img{
+  width:320px !important;
+  height:452px !important;
+}
+.curriculum-cover-left{
+  margin-right:14px !important;
+}
+.curriculum-cover-right{
+  margin-left:14px !important;
+}
+.coming-soon-plank{
+  margin-top:8px !important;
+}
+@media(max-width:980px){
+  .curriculum-scene{
+    min-height:500px !important;
+  }
+  .curriculum-cover,
+  .curriculum-cover img{
+    width:255px !important;
+    height:360px !important;
+  }
+}
+@media(max-width:760px){
+  .curriculum-board{
+    padding-left:18px;
+    padding-right:18px;
+  }
+  .curriculum-cover,
+  .curriculum-cover img{
+    width:43vw !important;
+    height:auto !important;
+  }
 }

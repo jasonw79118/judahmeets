@@ -38,3 +38,11 @@ UPDATE — 2026-08-17 LOOK FIX
 - Covers are fanned symmetrically around the center composition.
 - Added centered chalkboard copy and the wood 'More Bible Studies Coming Soon!' plank.
 - No pricing or product-model changes.
+
+UPDATE — 2026-08-17 COVER SIZE FIX
+- Menu/navigation unchanged.
+- Corrected only the curriculum cover display sizing.
+- Reduced both magazine-cover renders from the larger desktop size so rotated corners fit inside the chalkboard area.
+- Preserved same-size covers and fan layout.
+- Added extra board padding and removed clipping behavior for the curriculum feature area.
+- No pricing, copy, product model, or character changes.
