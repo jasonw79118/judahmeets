@@ -50,3 +50,8 @@ UPDATE — 2026-08-17 COVER SIZE FIX
 UPDATE — 2026-08-17 REQUEST INFO CONTRAST
 - Changed only the Request More Information CTA text to a dark green for stronger contrast.
 - Menu/navigation, curriculum covers, layout, pricing, and all other site content unchanged.
+
+UPDATE — 2026-08-17 CONTACT HEADING FIX
+- Corrected the actual "Request More Information" H2 selector.
+- Heading is now dark green; supporting paragraph is darker for contrast.
+- No other layout, menu, curriculum-cover, or product changes.

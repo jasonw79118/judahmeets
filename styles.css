@@ -477,3 +477,16 @@ a[href="#contact"]:hover,
 .request-more-info:hover{
   color:#071b16 !important;
 }
+
+
+/* 2026-08-17 contact heading contrast fix */
+.contact-section .contact-intro h2{
+  color:#173f35 !important;
+  text-shadow:none !important;
+}
+.contact-section .contact-intro p{
+  color:#2f4b43 !important;
+}
+.contact-section .contact-intro .kicker{
+  color:#8a6219 !important;
+}
