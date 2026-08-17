@@ -46,3 +46,7 @@ UPDATE — 2026-08-17 COVER SIZE FIX
 - Preserved same-size covers and fan layout.
 - Added extra board padding and removed clipping behavior for the curriculum feature area.
 - No pricing, copy, product model, or character changes.
+
+UPDATE — 2026-08-17 REQUEST INFO CONTRAST
+- Changed only the Request More Information CTA text to a dark green for stronger contrast.
+- Menu/navigation, curriculum covers, layout, pricing, and all other site content unchanged.

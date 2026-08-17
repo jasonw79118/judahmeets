@@ -463,3 +463,17 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
     height:auto !important;
   }
 }
+
+
+/* 2026-08-17 Request More Information contrast fix */
+a[href="#contact"],
+.request-info,
+.request-more-info{
+  color:#132f27 !important;
+  text-shadow:none !important;
+}
+a[href="#contact"]:hover,
+.request-info:hover,
+.request-more-info:hover{
+  color:#071b16 !important;
+}
