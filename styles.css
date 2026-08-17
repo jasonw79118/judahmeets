@@ -182,50 +182,14 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
 @media(max-width:700px){.contact-section{padding:48px 10px}.contact-form-shell{padding:6px}.contact-form-shell iframe{min-height:1320px}}
 
 
-<<<<<<< HEAD
-/* Curriculum cover promotion */
-=======
 
 
 /* Curriculum cover promotion — equal size, fanned covers only */
->>>>>>> d2b5abe (cover turned)
 .curriculum-preview{
   background:#efe5cf;
   color:var(--ink);
   border-top:8px solid var(--wood);
   border-bottom:8px solid var(--wood);
-<<<<<<< HEAD
-}
-.curriculum-preview-grid{
-  width:min(1000px,100%);
-  margin:0 auto;
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:40px;
-  align-items:start;
-}
-.curriculum-preview-card{
-  margin:0;
-  text-align:center;
-}
-.curriculum-preview-card img{
-  display:block;
-  width:100%;
-  height:auto;
-  background:#111a17;
-  border:10px solid var(--wood);
-  box-shadow:0 20px 48px rgba(54,42,26,.22);
-}
-.curriculum-preview-card figcaption{
-  margin-top:14px;
-  color:var(--navy);
-  font:700 1.25rem Georgia,serif;
-}
-@media(max-width:760px){
-  .curriculum-preview-grid{
-    grid-template-columns:1fr;
-    max-width:520px;
-=======
   overflow:hidden;
 }
 .curriculum-preview-grid{
@@ -305,6 +269,5 @@ footer{padding:30px 5vw;background:#080c0a;color:#a29b8d}.footer-inner{display:f
     aspect-ratio:390/550;
     object-fit:contain;
     transform:none !important;
->>>>>>> d2b5abe (cover turned)
   }
 }

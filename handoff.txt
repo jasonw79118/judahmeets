@@ -22,8 +22,6 @@ UPDATE — 2026-08-13
 - No standalone video-course product language was added.
 - No Ms. Ryanne site content was added.
 - Existing Judah/Noa site structure and messaging otherwise preserved.
-<<<<<<< HEAD
-=======
 
 UPDATE — 2026-08-17
 - Navigation/menu left unchanged.
@@ -32,4 +30,3 @@ UPDATE — 2026-08-17
 - Covers now display at identical dimensions.
 - Covers are fanned outward symmetrically at 30 degrees.
 - Mobile view keeps covers upright for readability.
->>>>>>> d2b5abe (cover turned)
