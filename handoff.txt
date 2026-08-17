@@ -30,3 +30,11 @@ UPDATE — 2026-08-17
 - Covers now display at identical dimensions.
 - Covers are fanned outward symmetrically at 30 degrees.
 - Mobile view keeps covers upright for readability.
+
+UPDATE — 2026-08-17 LOOK FIX
+- Navigation/menu unchanged.
+- Rebuilt ONLY the curriculum artwork feature to match the approved chalkboard concept.
+- Promises Kept and Creation covers are exactly the same rendered size.
+- Covers are fanned symmetrically around the center composition.
+- Added centered chalkboard copy and the wood 'More Bible Studies Coming Soon!' plank.
+- No pricing or product-model changes.
