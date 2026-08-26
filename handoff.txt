@@ -98,3 +98,19 @@ UPDATE — 2026-08-26 CLEAN PURCHASE FLOW
 - MagCloud speed-bump repeats the shipping/tax disclosure.
 - Empty MagCloud URLs remain intentionally disabled and now say “MagCloud Purchase Link Coming Soon” instead of appearing to be broken purchase buttons.
 - Exact MagCloud publication/bundle URLs are still required to activate purchase buttons.
+
+UPDATE — 2026-08-26 LIVE MAGCLOUD LINKS
+- Activated MagCloud purchase links through the existing JudahMeets exit-warning modal.
+- Creation Bible Study Magazine -> https://www.magcloud.com/browse/issue/3392121?__r=8940319
+- Creation Magazine Parent/Family Guide -> https://www.magcloud.com/browse/issue/3392998?__r=8940319
+- Creation Tabloid Parent/Family Guide -> https://www.magcloud.com/browse/issue/3392968?__r=8940319
+- Promises Kept Bible Study Magazine -> https://www.magcloud.com/browse/issue/3393076?__r=8940319
+- Promises Kept Magazine Parent/Family Guide -> https://www.magcloud.com/browse/issue/3393076?__r=8940319
+- Promises Kept Tabloid Parent/Family Guide -> https://www.magcloud.com/browse/issue/3388281?__r=8940319
+IMPORTANT: The user supplied the SAME MagCloud issue 3393076 URL for both the Promises Kept student magazine and magazine Parent/Family Guide. Verify whether that is intentional.
+- No separate MagCloud bundle URLs were supplied, so bundle prices remain displayed but purchasing is through the component product links rather than a fabricated bundle destination.
+
+UPDATE — 2026-08-26 PROMISES KEPT LINK CORRECTION
+- Promises Kept Bible Study Magazine corrected to https://www.magcloud.com/browse/issue/3373286?__r=8940319
+- Promises Kept Magazine Parent/Family Guide remains https://www.magcloud.com/browse/issue/3393076?__r=8940319
+- Promises Kept Tabloid Parent/Family Guide remains issue 3388281.
