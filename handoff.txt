@@ -89,3 +89,12 @@ UPDATE — 2026-08-26 BUNDLE COVER ART / CONTACT ORDER
 - Added Promises Kept student magazine + Parent & Family Guide cover art above Promises Kept bundle pricing.
 - Bundle pricing and MagCloud speed-bump logic preserved.
 - Purchase buttons remain disabled until exact MagCloud product/bundle URLs are provided.
+
+UPDATE — 2026-08-26 CLEAN PURCHASE FLOW
+- Removed the duplicate standalone pricing section.
+- Individual pricing is now summarized once at the top of the purchase area.
+- Creation and Promises Kept retain their cover art and bundle choices below.
+- Shipping/tax notice is prominent: printed products have additional shipping and applicable taxes calculated by MagCloud at checkout.
+- MagCloud speed-bump repeats the shipping/tax disclosure.
+- Empty MagCloud URLs remain intentionally disabled and now say “MagCloud Purchase Link Coming Soon” instead of appearing to be broken purchase buttons.
+- Exact MagCloud publication/bundle URLs are still required to activate purchase buttons.
