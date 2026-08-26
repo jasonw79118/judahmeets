@@ -899,3 +899,35 @@ a[href="#contact"]:hover,
   margin-top:20px;
   text-align:center;
 }
+
+
+/* 2026-08-26 MagCloud ordering instructions */
+.magcloud-instructions{
+  width:min(920px,100%);
+  margin:28px auto 34px;
+  padding:24px 28px;
+  background:#fffaf0;
+  border:2px solid #c7ad79;
+  border-radius:16px;
+  box-shadow:0 12px 26px rgba(45,34,20,.10);
+  color:#33463f;
+}
+.magcloud-instructions h3{
+  margin:.35em 0 .7em;
+  color:#173f35;
+  font:700 1.6rem Georgia,serif;
+}
+.magcloud-instructions ol{
+  margin:0 0 16px 1.25rem;
+  padding:0;
+}
+.magcloud-instructions li{
+  margin:.55rem 0;
+  line-height:1.45;
+}
+.magcloud-instructions p{
+  margin:.65rem 0 0;
+}
+.magcloud-instructions .digital-note{
+  color:#5c5140;
+}

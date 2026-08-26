@@ -136,3 +136,17 @@ UPDATE — 2026-08-26 MAGCLOUD COLLECTION LINKS
 UPDATE — 2026-08-26 COLLECTION LINK CORRECTION
 - JudahMeets Creation collection confirmed: https://www.magcloud.com/browse/magazine/3392945
 - JudahMeets Promises Kept collection corrected to: https://www.magcloud.com/browse/magazine/3387873
+
+UPDATE — 2026-08-26 SPEED BUMP FIX
+- Fixed MagCloud exit-warning modal.
+- Root cause: script.js was executing before #magcloud-modal existed in the DOM, so the speed-bump code could not find the modal.
+- Moved script.js to the end of <body>, after the MagCloud modal markup.
+- MagCloud collection URLs remain live fallback hrefs, so buyers can still reach MagCloud even if JavaScript fails.
+
+UPDATE — 2026-08-26 MAGCLOUD ORDERING INSTRUCTIONS
+- Added a clear 5-step “How to Order” section above the Creation/Promises Kept purchase cards.
+- Instructions tell buyers to add the Bible Study Magazine plus one Parent/Family Guide to the same MagCloud cart, then checkout once.
+- Added digital-buyer note.
+- Repeated shipping/applicable-tax disclosure.
+- Collection buttons renamed to “Open ... Collection on MagCloud.”
+- Speed-bump wording updated to repeat the two-item cart instruction.
