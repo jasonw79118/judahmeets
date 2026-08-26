@@ -121,3 +121,18 @@ UPDATE — 2026-08-26 NAV + MAGCLOUD FIX
 - MagCloud buttons now contain their actual MagCloud URL in href as well as data-magcloud-url.
 - Speed-bump JavaScript now intercepts live links and sends Continue to MagCloud to the selected product.
 - If JavaScript/modal fails, the real href remains as a fallback so the MagCloud link still works.
+
+
+UPDATE — 2026-08-26 MAGCLOUD COLLECTION LINKS
+- Replaced individual MagCloud product links with one collection link per series.
+- JudahMeets Creation collection: https://www.magcloud.com/browse/magazine/3392945
+- JudahMeets Promises Kept collection: https://www.magcloud.com/browse/magazine/3373286
+- Each bundle card now tells buyers exactly which two items to select on MagCloud.
+- Existing bundle prices retained.
+- Shipping/tax disclosure retained.
+- MagCloud speed bump retained and updated to tell buyers they are entering the full series collection.
+
+
+UPDATE — 2026-08-26 COLLECTION LINK CORRECTION
+- JudahMeets Creation collection confirmed: https://www.magcloud.com/browse/magazine/3392945
+- JudahMeets Promises Kept collection corrected to: https://www.magcloud.com/browse/magazine/3387873
