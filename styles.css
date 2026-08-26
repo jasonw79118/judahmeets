@@ -793,3 +793,40 @@ a[href="#contact"]:hover,
 @media(max-width:820px){
   .bundle-series-grid{grid-template-columns:1fr}
 }
+
+
+/* 2026-08-26 bundle cover art */
+.bundle-cover-pair{
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  gap:18px;
+  margin:0 auto 26px;
+  min-height:320px;
+  padding:8px 4px 4px;
+}
+.bundle-cover-pair img{
+  display:block;
+  width:min(42%,220px);
+  height:300px;
+  object-fit:contain;
+  background:#fffaf0;
+  border:1px solid #c8b28d;
+  box-shadow:0 16px 28px rgba(44,33,20,.18);
+}
+@media(max-width:900px){
+  .bundle-cover-pair img{
+    width:min(44%,190px);
+    height:270px;
+  }
+}
+@media(max-width:560px){
+  .bundle-cover-pair{
+    gap:10px;
+    min-height:240px;
+  }
+  .bundle-cover-pair img{
+    width:46%;
+    height:230px;
+  }
+}

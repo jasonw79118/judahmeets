@@ -80,3 +80,12 @@ UPDATE — 2026-08-26 BUNDLES + MAGCLOUD SPEED BUMP
 - Bundle purchase buttons are intentionally disabled until exact MagCloud product/bundle URLs are supplied.
 - To enable a button, put its MagCloud URL in that button's data-magcloud-url attribute and remove aria-disabled="true".
 - Existing navigation/site structure otherwise preserved.
+
+
+UPDATE — 2026-08-26 BUNDLE COVER ART / CONTACT ORDER
+- Removed the Books navigation item and Books section for now.
+- Moved the Request More Information / hello@judahmeets.com contact section to the bottom of the page immediately before the footer.
+- Added Creation student magazine + Parent & Family Guide cover art above Creation bundle pricing.
+- Added Promises Kept student magazine + Parent & Family Guide cover art above Promises Kept bundle pricing.
+- Bundle pricing and MagCloud speed-bump logic preserved.
+- Purchase buttons remain disabled until exact MagCloud product/bundle URLs are provided.
