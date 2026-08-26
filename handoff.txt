@@ -114,3 +114,10 @@ UPDATE — 2026-08-26 PROMISES KEPT LINK CORRECTION
 - Promises Kept Bible Study Magazine corrected to https://www.magcloud.com/browse/issue/3373286?__r=8940319
 - Promises Kept Magazine Parent/Family Guide remains https://www.magcloud.com/browse/issue/3393076?__r=8940319
 - Promises Kept Tabloid Parent/Family Guide remains issue 3388281.
+
+UPDATE — 2026-08-26 NAV + MAGCLOUD FIX
+- Removed the For Parents quick-navigation button.
+- Adventures now scrolls directly to the family-bundles / magazine purchase listings.
+- MagCloud buttons now contain their actual MagCloud URL in href as well as data-magcloud-url.
+- Speed-bump JavaScript now intercepts live links and sends Continue to MagCloud to the selected product.
+- If JavaScript/modal fails, the real href remains as a fallback so the MagCloud link still works.
