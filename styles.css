@@ -490,3 +490,306 @@ a[href="#contact"]:hover,
 .contact-section .contact-intro .kicker{
   color:#8a6219 !important;
 }
+
+
+/* Market-ready contact + pricing update — 2026-08-26 */
+.contact-utility{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:8px;
+  padding:7px 16px;
+  background:#d6a93d;
+  color:#16231f;
+  font-size:.88rem;
+  font-weight:700;
+  letter-spacing:.01em;
+}
+.contact-utility a{
+  color:#0f3027;
+  font-weight:900;
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+.contact-email-inline{
+  color:#174d3f;
+  font-weight:900;
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+.native-contact-shell{
+  max-width:760px;
+  overflow:visible;
+}
+.inquiry-form{
+  display:grid;
+  gap:18px;
+  padding:22px;
+}
+.form-row{
+  display:grid;
+  gap:7px;
+}
+.form-row label{
+  color:#173f35;
+  font-weight:900;
+}
+.form-row input,
+.form-row textarea{
+  width:100%;
+  box-sizing:border-box;
+  border:2px solid #a98d64;
+  border-radius:10px;
+  background:#fffdf8;
+  color:#1e2d28;
+  font:inherit;
+  padding:12px 14px;
+  outline:none;
+}
+.form-row input:focus,
+.form-row textarea:focus{
+  border-color:#7a5a20;
+  box-shadow:0 0 0 3px rgba(216,170,60,.18);
+}
+.form-row textarea{
+  resize:vertical;
+  min-height:190px;
+}
+.inquiry-submit{
+  justify-self:start;
+  border:0;
+  cursor:pointer;
+  font:inherit;
+}
+.form-note{
+  margin:0;
+  color:#53625c;
+  font-size:.86rem;
+}
+.honeypot{
+  position:absolute !important;
+  left:-10000px !important;
+  width:1px !important;
+  height:1px !important;
+  overflow:hidden !important;
+}
+
+.study-options{
+  padding:78px 22px;
+  background:#efe5cf;
+  color:#1d2a26;
+  border-top:8px solid var(--wood);
+  border-bottom:8px solid var(--wood);
+}
+.study-options .section-heading{
+  max-width:900px;
+}
+.study-options .section-heading p{
+  max-width:850px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.family-study-note{
+  color:#344942;
+  font-weight:600;
+}
+.pricing-grid{
+  width:min(1080px,100%);
+  margin:36px auto 0;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:22px;
+}
+.pricing-card{
+  background:#fffaf0;
+  border:2px solid #b79a69;
+  border-radius:18px;
+  padding:26px 24px;
+  box-shadow:0 14px 30px rgba(46,35,21,.12);
+}
+.pricing-card.featured{
+  border-color:#d6a93d;
+  box-shadow:0 16px 34px rgba(127,91,26,.18);
+}
+.pricing-label{
+  display:block;
+  color:#8a6219;
+  font-size:.76rem;
+  font-weight:900;
+  letter-spacing:.12em;
+}
+.pricing-card h3{
+  margin:.35em 0 .5em;
+  color:#183b31;
+  font:700 1.55rem Georgia,serif;
+}
+.pricing-description{
+  min-height:72px;
+  color:#5c6963;
+}
+.price-row{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:11px 0;
+  border-top:1px solid #d8c7a9;
+  color:#33443e;
+}
+.price-row strong{
+  color:#173f35;
+  font-size:1.12rem;
+}
+.pricing-disclaimer{
+  width:min(1080px,100%);
+  margin:20px auto 0;
+  color:#5d625f;
+  text-align:center;
+  font-size:.88rem;
+}
+.footer-contact-email{
+  display:inline-block;
+  margin-top:6px;
+  color:#f0c75a;
+  font-weight:900;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+@media(max-width:860px){
+  .pricing-grid{grid-template-columns:1fr}
+  .pricing-description{min-height:auto}
+}
+@media(max-width:600px){
+  .contact-utility{
+    flex-direction:column;
+    gap:2px;
+    text-align:center;
+  }
+  .inquiry-form{padding:14px}
+}
+
+
+/* Family bundles + MagCloud speed bump — 2026-08-26 */
+.family-bundles{
+  padding:76px 22px;
+  background:#e7dcc4;
+  color:#1d2a26;
+}
+.bundle-series-grid{
+  width:min(1160px,100%);
+  margin:36px auto 0;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;
+}
+.bundle-series{
+  background:#f9f1df;
+  border:2px solid #b79a69;
+  border-radius:18px;
+  padding:26px;
+  box-shadow:0 14px 30px rgba(46,35,21,.12);
+}
+.bundle-series > h3{
+  margin:0 0 20px;
+  color:#173f35;
+  text-align:center;
+  font:700 1.8rem Georgia,serif;
+}
+.bundle-options{
+  display:grid;
+  gap:18px;
+}
+.bundle-card{
+  background:#fffdf7;
+  border:1px solid #cfb98f;
+  border-radius:14px;
+  padding:20px;
+}
+.bundle-card.tabloid-bundle{
+  border:2px solid #d6a93d;
+}
+.bundle-label{
+  color:#8a6219;
+  font-size:.73rem;
+  font-weight:900;
+  letter-spacing:.1em;
+}
+.bundle-card h4{
+  margin:.45em 0 .8em;
+  color:#2c423a;
+  line-height:1.35;
+}
+.bundle-price-line{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  padding:9px 0;
+  border-top:1px solid #dfd0b4;
+}
+.bundle-price-line strong{color:#173f35}
+.bundle-price-line.special span,
+.bundle-price-line.special strong{
+  color:#8a6219;
+  font-weight:900;
+}
+.bundle-card .magcloud-link{
+  display:inline-flex;
+  margin-top:15px;
+}
+.magcloud-link[aria-disabled="true"]{
+  opacity:.58;
+  cursor:not-allowed;
+}
+.external-modal[hidden]{display:none}
+.external-modal{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:grid;
+  place-items:center;
+  padding:20px;
+}
+.external-modal-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(9,17,14,.76);
+}
+.external-modal-dialog{
+  position:relative;
+  width:min(600px,100%);
+  background:#f8f0df;
+  color:#24352f;
+  border:8px solid var(--wood);
+  border-radius:16px;
+  padding:32px;
+  box-shadow:0 24px 70px rgba(0,0,0,.4);
+}
+.external-modal-dialog h2{
+  margin:.25em 0 .55em;
+  color:#173f35;
+  font:700 2rem Georgia,serif;
+}
+.external-modal-close{
+  position:absolute;
+  top:8px;
+  right:12px;
+  border:0;
+  background:transparent;
+  color:#173f35;
+  font-size:2rem;
+  cursor:pointer;
+}
+.external-modal-actions{
+  display:flex;
+  justify-content:flex-end;
+  gap:12px;
+  margin-top:24px;
+  flex-wrap:wrap;
+}
+.modal-stay{
+  color:#173f35;
+  border:2px solid #8f7651;
+}
+@media(max-width:820px){
+  .bundle-series-grid{grid-template-columns:1fr}
+}

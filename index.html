@@ -8,6 +8,10 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="contact-utility">
+  <span>Questions about Judah Meets?</span>
+  <a href="mailto:hello@judahmeets.com">hello@judahmeets.com</a>
+</div>
 <header class="site-header">
   <a class="brand" href="#top">
     <img src="assets/judah-logo.jpg" alt="Judah Meets">
@@ -64,10 +68,34 @@
   <div class="contact-intro">
     <span class="kicker dark">LET'S CONNECT</span>
     <h2>Request More Information</h2>
-    <p>Are you a parent, homeschool family, church, or Christian educator interested in Judah Meets? Tell us what you are looking for and how we may be able to help.</p>
+    <p>Questions about Judah Meets, family studies, homeschool use, or church resources? Send us a note or email us directly at <a class="contact-email-inline" href="mailto:hello@judahmeets.com">hello@judahmeets.com</a>.</p>
   </div>
-  <div class="contact-form-shell">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZ0hWOAUVnp03vA84Hvm5qkzld4o89joa1kZuIhb26bZqK9A/viewform?embedded=true" title="Request More Information from Judah Meets" loading="lazy" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+  <div class="contact-form-shell native-contact-shell">
+    <form class="inquiry-form" action="https://formsubmit.co/hello@judahmeets.com" method="POST">
+      <input type="hidden" name="_subject" value="New JudahMeets.com Inquiry">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://www.judahmeets.com/thanks.html">
+      <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+
+      <div class="form-row">
+        <label for="inquiry-name">Name <span aria-hidden="true">*</span></label>
+        <input id="inquiry-name" type="text" name="name" autocomplete="name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="inquiry-email">Email <span aria-hidden="true">*</span></label>
+        <input id="inquiry-email" type="email" name="email" autocomplete="email" required>
+      </div>
+
+      <div class="form-row">
+        <label for="inquiry-message">How can we help?</label>
+        <textarea id="inquiry-message" name="message" rows="9" placeholder="Tell us what you're interested in or what questions you have." required></textarea>
+      </div>
+
+      <button class="btn primary inquiry-submit" type="submit">Send Inquiry</button>
+      <p class="form-note">Required fields are marked with *. Your message will be sent to <strong>hello@judahmeets.com</strong>.</p>
+    </form>
   </div>
 </section>
 
@@ -159,7 +187,99 @@
     </div>
   </section>
 
-  <section class="parents chalkboard" id="parents">
+  
+<section class="study-options" id="study-options">
+  <div class="section-heading">
+    <span class="kicker dark">DESIGNED FOR KIDS. BUILT FOR FAMILIES.</span>
+    <h2>Choose the format that fits your family.</h2>
+    <p>JudahMeets Bible Study Magazines are designed primarily for children ages 5–11, with engaging characters that interact with Scripture, along with questions, activities, and illustrations that help children understand how the Bible fits together.</p>
+    <p class="family-study-note">Add the Parent Guide and the study expands into a richer family Bible study, with deeper Scripture study, discussion questions, teaching guidance, and activities that give older children and adults meaningful ways to participate too.</p>
+  </div>
+
+  <div class="pricing-grid">
+    <article class="pricing-card">
+      <span class="pricing-label">FOR THE CHILD</span>
+      <h3>Bible Study Magazine</h3>
+      <p class="pricing-description">The core JudahMeets study for ages 5–11.</p>
+      <div class="price-row"><span>Digital</span><strong>$18.99</strong></div>
+      <div class="price-row"><span>Print</span><strong>$18.99</strong></div>
+    </article>
+
+    <article class="pricing-card featured">
+      <span class="pricing-label">FAMILY STUDY</span>
+      <h3>Parent Guide — Magazine</h3>
+      <p class="pricing-description">Compact parent/family guide that adds depth, discussion, and teaching support.</p>
+      <div class="price-row"><span>Digital</span><strong>$18.99</strong></div>
+      <div class="price-row"><span>Print</span><strong>$18.99</strong></div>
+    </article>
+
+    <article class="pricing-card">
+      <span class="pricing-label">LARGER FORMAT</span>
+      <h3>Parent Guide — Tabloid</h3>
+      <p class="pricing-description">A larger-format guide with additional room for teaching, notes, and family discussion.</p>
+      <div class="price-row"><span>Digital</span><strong>$19.99</strong></div>
+      <div class="price-row"><span>Print</span><strong>$22.99</strong></div>
+    </article>
+  </div>
+
+  <p class="pricing-disclaimer">Printed-product prices exclude shipping and applicable taxes.</p>
+</section>
+
+
+
+<section class="family-bundles" id="family-bundles">
+  <div class="section-heading">
+    <span class="kicker dark">COMPLETE FAMILY STUDY</span>
+    <h2>Bundle the Bible Study Magazine + Parent/Family Guide.</h2>
+    <p>The Parent/Family Guide greatly expands the impact of the children’s study, creating a richer Bible study experience for the whole family.</p>
+  </div>
+
+  <div class="bundle-series-grid">
+    <article class="bundle-series">
+      <h3>JudahMeets Creation</h3>
+      <div class="bundle-options">
+        <div class="bundle-card">
+          <span class="bundle-label">MAGAZINE FAMILY BUNDLE</span>
+          <h4>Bible Study Magazine + Magazine Parent/Family Guide</h4>
+          <div class="bundle-price-line"><span>Digital</span><strong>$38.98</strong></div>
+          <div class="bundle-price-line"><span>Print</span><strong>$38.98</strong></div>
+          <a class="btn primary magcloud-link" href="#" data-magcloud-url="" aria-disabled="true">Purchase on MagCloud</a>
+        </div>
+        <div class="bundle-card tabloid-bundle">
+          <span class="bundle-label">TABLOID FAMILY BUNDLE</span>
+          <h4>Bible Study Magazine + Tabloid Parent/Family Guide</h4>
+          <div class="bundle-price-line special"><span>Digital — Special Deal</span><strong>$38.98</strong></div>
+          <div class="bundle-price-line"><span>Print</span><strong>$42.98</strong></div>
+          <a class="btn primary magcloud-link" href="#" data-magcloud-url="" aria-disabled="true">Purchase on MagCloud</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="bundle-series">
+      <h3>JudahMeets Promises Kept</h3>
+      <div class="bundle-options">
+        <div class="bundle-card">
+          <span class="bundle-label">MAGAZINE FAMILY BUNDLE</span>
+          <h4>Bible Study Magazine + Magazine Parent/Family Guide</h4>
+          <div class="bundle-price-line"><span>Digital</span><strong>$38.98</strong></div>
+          <div class="bundle-price-line"><span>Print</span><strong>$38.98</strong></div>
+          <a class="btn primary magcloud-link" href="#" data-magcloud-url="" aria-disabled="true">Purchase on MagCloud</a>
+        </div>
+        <div class="bundle-card tabloid-bundle">
+          <span class="bundle-label">TABLOID FAMILY BUNDLE</span>
+          <h4>Bible Study Magazine + Tabloid Parent/Family Guide</h4>
+          <div class="bundle-price-line special"><span>Digital — Special Deal</span><strong>$38.98</strong></div>
+          <div class="bundle-price-line"><span>Print</span><strong>$42.98</strong></div>
+          <a class="btn primary magcloud-link" href="#" data-magcloud-url="" aria-disabled="true">Purchase on MagCloud</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <p class="pricing-disclaimer">Printed-product prices exclude shipping and applicable taxes. Purchases are fulfilled through MagCloud.</p>
+</section>
+
+
+<section class="parents chalkboard" id="parents">
     <div class="parents-inner">
       <div>
         <span class="kicker">FOR PARENTS &amp; CHURCHES</span>
@@ -189,10 +309,29 @@
   <div class="copyright-line">© 2026 JudahMeets, LLC. All Rights Reserved.</div>
   <div class="footer-inner">
     <div><strong>JUDAH MEETS</strong><small>Big Faith. Real Questions.</small></div>
-    <div>Bible Studies · Curriculum · Books · Judah · Noa</div>
+    <div>
+      <div>Bible Studies · Curriculum · Books · Judah · Noa</div>
+      <a class="footer-contact-email" href="mailto:hello@judahmeets.com">hello@judahmeets.com</a>
+    </div>
   </div>
 </footer>
 
 <script src="script.js"></script>
+
+<div class="external-modal" id="magcloud-modal" hidden>
+  <div class="external-modal-backdrop" data-close-magcloud></div>
+  <div class="external-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="magcloud-modal-title">
+    <button class="external-modal-close" type="button" data-close-magcloud aria-label="Close">×</button>
+    <span class="kicker dark">PURCHASE &amp; FULFILLMENT</span>
+    <h2 id="magcloud-modal-title">You’re leaving JudahMeets.com</h2>
+    <p>JudahMeets printed and digital materials are purchased through <strong>MagCloud, our third-party printing and distribution provider</strong>.</p>
+    <p>You’ll be taken to MagCloud.com to complete your purchase. MagCloud handles checkout, applicable taxes, shipping, and delivery.</p>
+    <div class="external-modal-actions">
+      <button class="btn curriculum-ghost modal-stay" type="button" data-close-magcloud>Stay on JudahMeets</button>
+      <a class="btn primary" id="continue-magcloud" href="#" target="_blank" rel="noopener noreferrer">Continue to MagCloud</a>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

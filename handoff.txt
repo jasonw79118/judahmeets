@@ -55,3 +55,28 @@ UPDATE — 2026-08-17 CONTACT HEADING FIX
 - Corrected the actual "Request More Information" H2 selector.
 - Heading is now dark green; supporting paragraph is darker for contrast.
 - No other layout, menu, curriculum-cover, or product changes.
+
+
+UPDATE — 2026-08-26 MARKET READY
+- Added prominent hello@judahmeets.com contact bar and footer email.
+- Removed embedded Google Form.
+- Added native inquiry form: required Name, required Email, required long Message field.
+- Form posts through FormSubmit to hello@judahmeets.com; first submission requires one-time email activation from FormSubmit.
+- Added thank-you page.
+- Added pricing/product explanation:
+  * Bible Study Magazine: $18.99 digital / $18.99 print
+  * Parent Guide — Magazine: $18.99 digital / $18.99 print
+  * Parent Guide — Tabloid: $19.99 digital / $22.99 print
+  * Printed products exclude shipping and applicable taxes.
+- Added target age 5–11 language and family-study value of Parent Guide.
+- Used wording: “engaging characters that interact with Scripture.”
+
+
+UPDATE — 2026-08-26 BUNDLES + MAGCLOUD SPEED BUMP
+- Added Creation and Promises Kept family bundle sections.
+- Magazine Family Bundle: $38.98 digital / $38.98 print.
+- Tabloid Family Bundle: $38.98 DIGITAL SPECIAL / $42.98 print.
+- Added MagCloud exit-warning modal explaining third-party printing/distribution, checkout, tax, shipping, and delivery.
+- Bundle purchase buttons are intentionally disabled until exact MagCloud product/bundle URLs are supplied.
+- To enable a button, put its MagCloud URL in that button's data-magcloud-url attribute and remove aria-disabled="true".
+- Existing navigation/site structure otherwise preserved.
