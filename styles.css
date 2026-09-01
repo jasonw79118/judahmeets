@@ -597,7 +597,7 @@ a[href="#contact"]:hover,
   width:min(1080px,100%);
   margin:36px auto 0;
   display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-columns:repeat(2,minmax(0,1fr));
   gap:22px;
 }
 .pricing-card{
@@ -704,9 +704,6 @@ a[href="#contact"]:hover,
   border:1px solid #cfb98f;
   border-radius:14px;
   padding:20px;
-}
-.bundle-card.tabloid-bundle{
-  border:2px solid #d6a93d;
 }
 .bundle-label{
   color:#8a6219;
@@ -837,7 +834,7 @@ a[href="#contact"]:hover,
   width:min(920px,100%);
   margin:26px auto 12px;
   display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-columns:repeat(2,minmax(0,1fr));
   gap:12px;
 }
 .single-item-prices span{
@@ -930,4 +927,24 @@ a[href="#contact"]:hover,
 }
 .magcloud-instructions .digital-note{
   color:#5c5140;
+}
+
+
+/* 2026-09-01 simplified two-book family study */
+.complete-study-card{
+  max-width:520px;
+  margin:0 auto;
+}
+.site-version{
+  position:fixed;
+  left:8px;
+  bottom:6px;
+  z-index:50;
+  font-size:10px;
+  letter-spacing:.03em;
+  color:rgba(255,255,255,.68);
+  background:rgba(13,19,17,.78);
+  padding:3px 6px;
+  border-radius:4px;
+  pointer-events:none;
 }

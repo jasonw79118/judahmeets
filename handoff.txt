@@ -150,3 +150,14 @@ UPDATE — 2026-08-26 MAGCLOUD ORDERING INSTRUCTIONS
 - Repeated shipping/applicable-tax disclosure.
 - Collection buttons renamed to “Open ... Collection on MagCloud.”
 - Speed-bump wording updated to repeat the two-item cart instruction.
+
+UPDATE — 2026-09-01 SIMPLIFIED MAGCLOUD PRODUCT LINE
+- Removed all Tabloid / Wire-O Parent & Family Guide pricing and bundle choices from the website.
+- JudahMeets now presents exactly two products per series: Bible Study Magazine + Parent & Family Guide.
+- Both products remain $18.99 digital or print; complete set is shown as $38.98 digital or print.
+- Simplified MagCloud ordering instructions to: choose series, open collection, add both books, checkout once.
+- Simplified each Creation and Promises Kept purchase card to one Complete Family Study option.
+- Updated MagCloud exit-warning copy to reference the two-book set only.
+- Retained the existing MagCloud collection links and speed-bump behavior.
+- Added bottom-left site version stamp: v2026.09.01-01.
+
