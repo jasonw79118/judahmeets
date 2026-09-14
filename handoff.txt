@@ -166,3 +166,10 @@ UPDATE — 2026-09-14 NOAH PROMOTION
 - Added a guaranteed local speed-bump page for the supplied Noah MagCloud issue:
   https://www.magcloud.com/browse/issue/3402418?__r=8940319
 - No Noah collection URL or Parent & Family Guide MagCloud issue URL was supplied, so the Noah CTA currently opens the supplied Noah issue only.
+
+UPDATE — 2026-09-14
+- Noah Magazine: $18.99 digital/print.
+- Noah Parent & Family Guide: $19.99 digital / $21.99 print.
+- Noah Parent Guide now described as day-by-day.
+- Removed discontinued tabloid Parent Guide offering from Creation and Promises Kept.
+- Shipping/tax disclosure preserved.

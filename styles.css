@@ -947,3 +947,4 @@ a[href="#contact"]:hover,
 @media(max-width:820px){
   .noah-series{grid-column:auto;width:100%}
 }
+.noah-complete-study{margin:18px auto 4px;padding:12px 16px;max-width:680px;text-align:center;background:#f3dfaa;border:1px solid #d1a84c;border-radius:10px;color:#513c18}
