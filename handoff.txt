@@ -151,13 +151,18 @@ UPDATE — 2026-08-26 MAGCLOUD ORDERING INSTRUCTIONS
 - Collection buttons renamed to “Open ... Collection on MagCloud.”
 - Speed-bump wording updated to repeat the two-item cart instruction.
 
-UPDATE — 2026-09-01 SIMPLIFIED MAGCLOUD PRODUCT LINE
-- Removed all Tabloid / Wire-O Parent & Family Guide pricing and bundle choices from the website.
-- JudahMeets now presents exactly two products per series: Bible Study Magazine + Parent & Family Guide.
-- Both products remain $18.99 digital or print; complete set is shown as $38.98 digital or print.
-- Simplified MagCloud ordering instructions to: choose series, open collection, add both books, checkout once.
-- Simplified each Creation and Promises Kept purchase card to one Complete Family Study option.
-- Updated MagCloud exit-warning copy to reference the two-book set only.
-- Retained the existing MagCloud collection links and speed-bump behavior.
-- Added bottom-left site version stamp: v2026.09.01-01.
+UPDATE — 2026-08-26 GUARANTEED MAGCLOUD SPEED BUMP
+- Replaced JavaScript-only MagCloud modal routing with dedicated local speed-bump pages.
+- Creation button now goes to magcloud-creation.html first.
+- Promises Kept button now goes to magcloud-promises-kept.html first.
+- Each page explains which two items to add, shipping/tax disclosure, and provides Stay on JudahMeets / Continue to MagCloud choices.
+- This approach works even if browser JavaScript fails or is blocked.
 
+
+UPDATE — 2026-09-14 NOAH PROMOTION
+- Added JudahMeets Noah as a third promoted study.
+- Added Noah Bible Study Magazine cover.
+- Added Noah Parent & Family Guide cover.
+- Added a guaranteed local speed-bump page for the supplied Noah MagCloud issue:
+  https://www.magcloud.com/browse/issue/3402418?__r=8940319
+- No Noah collection URL or Parent & Family Guide MagCloud issue URL was supplied, so the Noah CTA currently opens the supplied Noah issue only.
