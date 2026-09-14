@@ -948,3 +948,94 @@ a[href="#contact"]:hover,
   .noah-series{grid-column:auto;width:100%}
 }
 .noah-complete-study{margin:18px auto 4px;padding:12px 16px;max-width:680px;text-align:center;background:#f3dfaa;border:1px solid #d1a84c;border-radius:10px;color:#513c18}
+
+/* 2026-09-14 uniform study-series layout */
+.study-series-grid{
+  width:min(1200px,100%);
+  margin:36px auto 0;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:24px;
+  align-items:stretch;
+}
+.study-series-card{
+  display:flex;
+  flex-direction:column;
+  background:#f9f1df;
+  border:2px solid #b79a69;
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 14px 30px rgba(46,35,21,.12);
+}
+.study-series-card h3{
+  min-height:2.4em;
+  margin:0 0 18px;
+  text-align:center;
+  color:#173f35;
+  font:700 1.65rem Georgia,serif;
+}
+.study-cover-pair{
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  gap:12px;
+  min-height:300px;
+  margin:0 auto 22px;
+}
+.study-cover-pair img{
+  display:block;
+  width:46%;
+  height:285px;
+  object-fit:contain;
+  background:#fffaf0;
+  border:1px solid #c8b28d;
+  box-shadow:0 14px 26px rgba(44,33,20,.16);
+}
+.study-product-list{
+  display:grid;
+  gap:10px;
+  margin-bottom:16px;
+}
+.study-product{
+  padding:13px 14px;
+  background:#fffdf7;
+  border:1px solid #d4c19e;
+  border-radius:11px;
+}
+.study-product span{
+  display:block;
+  color:#8a6219;
+  font-size:.78rem;
+  font-weight:900;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
+.study-product strong{
+  display:block;
+  margin-top:4px;
+  color:#173f35;
+  font-size:.98rem;
+}
+.study-support-copy{
+  flex:1;
+  margin:0 0 20px;
+  color:#4b5b54;
+  line-height:1.5;
+}
+.study-series-card .collection-link{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  margin-top:auto;
+  text-align:center;
+}
+@media(max-width:1000px){
+  .study-series-grid{grid-template-columns:1fr}
+  .study-series-card{max-width:760px;width:100%;justify-self:center}
+  .study-cover-pair{min-height:360px}
+  .study-cover-pair img{width:min(42%,250px);height:340px}
+}
+@media(max-width:560px){
+  .study-cover-pair{min-height:240px;gap:8px}
+  .study-cover-pair img{width:47%;height:230px}
+}

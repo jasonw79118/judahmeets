@@ -173,3 +173,11 @@ UPDATE — 2026-09-14
 - Noah Parent Guide now described as day-by-day.
 - Removed discontinued tabloid Parent Guide offering from Creation and Promises Kept.
 - Shipping/tax disclosure preserved.
+
+UPDATE — 2026-09-14 UNIFORM SERIES LAYOUT
+- Creation, Promises Kept, and Noah now use the exact same visual structure.
+- Same card size/style, same two-cover layout, same product-price rows, same supporting-copy area, and same CTA placement.
+- Noah retains its study-specific pricing and day-by-day Parent & Family Guide description.
+- Creation and Promises Kept retain their established $18.99 magazine / $18.99 guide pricing.
+- No tabloid Parent Guide offering is shown.
+- Shipping/tax disclosure remains above the study cards.
