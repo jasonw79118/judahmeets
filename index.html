@@ -17,55 +17,215 @@
     <img src="assets/judah-logo.jpg" alt="Judah Meets">
     <div><strong>JUDAH MEETS</strong><small>Big Faith. Real Questions.</small></div>
   </a>
-  <button class="menu-toggle" aria-label="Open menu">☰</button>
-  <nav>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">☰</button>
+  <nav id="site-nav">
     <a href="#family-bundles">Adventures</a>
     <a href="#guides">Meet Judah &amp; Noa</a>
-    <a class="sign-in" href="#contact">Sign In</a>
+    <a href="#mini-adventure">Try an Activity</a>
+    <a class="sign-in" href="#contact">Contact</a>
   </nav>
 </header>
 
 <main id="top">
-  <section class="hero chalkboard">
+  <section class="hero">
     <div class="chalk-doodles" aria-hidden="true">
       <span class="star s1">☆</span><span class="star s2">✦</span><span class="arrow a1">↝</span>
       <span class="scribble">promise → promise kept</span>
     </div>
     <div class="hero-inner">
       <div class="hero-copy">
-        <span class="kicker">WELCOME TO THE CLASSROOM</span>
+        <span class="kicker">WELCOME, CURIOUS MINDS!</span>
         <h1>Big Faith.<br>Real Questions.</h1>
-        <p>Join Judah and Noa as they explore Scripture, ask the questions kids are already thinking, and discover how every promise fits into God's one mighty story.</p>
+        <p>Explore the Bible with Judah and Noa—one big question at a time.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="#family-bundles">Start the Adventure</a>
-          <a class="btn ghost" href="#guides">Meet Judah &amp; Noa</a>
+          <a class="btn primary" href="#family-bundles">Explore Bible Studies</a>
+          <a class="btn ghost" href="#mini-adventure">Try a Free Adventure</a>
         </div>
         <p class="tagline">One Bible. One Story. All About Jesus.</p>
       </div>
-      <div class="hero-duo">
+      <div class="hero-duo" aria-label="Meet Judah and Noa">
+        <span class="hero-spark hero-spark-one" aria-hidden="true">✦</span>
+        <span class="hero-spark hero-spark-two" aria-hidden="true">✳</span>
         <div class="character-cutout judah-cutout">
-          <img class="character-only" src="assets/judah-clean.png" alt="Judah">
-          <span>“But…why?”</span>
+          <img class="character-only" src="assets/judah-transparent.png" alt="Judah">
+          <span>“I have a question!”</span>
         </div>
         <div class="character-cutout noa-cutout">
-          <img class="character-only" src="assets/noa-clean.png" alt="Noa">
-          <span>“Maybe think first.”</span>
+          <img class="character-only" src="assets/noa-transparent.png" alt="Noa">
+          <span>“Let’s find out!”</span>
         </div>
       </div>
     </div>
   </section>
 
   <section class="classroom-strip">
-    <div class="strip-item"><b>LOOK CLOSER</b><span>Read what Scripture actually says.</span></div>
-    <div class="strip-item"><b>FOLLOW THE PROMISE</b><span>Trace what God says through the whole story.</span></div>
-    <div class="strip-item"><b>CONNECT TO CHRIST</b><span>When Scripture leads to Jesus, follow it all the way.</span></div>
+    <div class="strip-item"><b>1. MEET YOUR GUIDES</b><span><a href="#guides">Get to know Judah &amp; Noa.</a></span></div>
+    <div class="strip-item"><b>2. TRY AN ACTIVITY</b><span><a href="#mini-adventure">Explore a big question together.</a></span></div>
+    <div class="strip-item"><b>3. CHOOSE A STUDY</b><span><a href="#family-bundles">Find your next family adventure.</a></span></div>
   </section>
 
-  
+<section class="guides" id="guides">
+  <div class="guides-intro">
+    <span class="kicker dark">YOUR GUIDES THROUGH THE STORY</span>
+    <h2>Meet your adventure team.</h2>
+    <p>Judah brings big questions. Noa brings a thoughtful perspective. Together they explore Scripture, follow God’s promises, and discover one mighty story.</p>
+    <a class="text-link" href="#mini-adventure">See what they’re wondering about →</a>
+  </div>
+  <div class="meet-guides-feature">
+    <img src="assets/meet-judah-noa.png" alt="Meet Judah and Noa">
+  </div>
+</section>
 
+<section class="mini-adventure" id="mini-adventure">
+  <div class="section-heading">
+    <span class="kicker dark">A FREE FAMILY MINI ADVENTURE</span>
+    <h2>Big questions welcome!</h2>
+    <p>Pick a question to hear from Judah and Noa. Then try the activity together—no signup needed.</p>
+  </div>
+  <div class="adventure-content">
+    <div class="question-board">
+      <span class="kicker dark">THE QUESTION STATION</span>
+      <h3>Pick a big question</h3>
+      <p class="question-hint">Choose a card to join the conversation.</p>
+      <div class="question-list">
+        <details class="question-card question-creation" name="big-question">
+          <summary><span class="question-icon" aria-hidden="true">☀</span><span><small>CREATION</small>What does creation tell us about God?</span></summary>
+          <div class="conversation">
+            <p><img src="assets/judah-transparent.png" alt=""><span><strong>Judah</strong>The world is full of amazing things! Where did they all come from?</span></p>
+            <p><img src="assets/noa-transparent.png" alt=""><span><strong>Noa</strong>Let’s look at Genesis 1 together and see what it tells us about God as Creator.</span></p>
+            <a class="text-link" href="#creation-activity">Try the creation challenge →</a>
+          </div>
+        </details>
+        <details class="question-card question-promise" name="big-question">
+          <summary><span class="question-icon" aria-hidden="true">✦</span><span><small>GOD’S PROMISE</small>What is a promise?</span></summary>
+          <div class="conversation">
+            <p><img src="assets/judah-transparent.png" alt=""><span><strong>Judah</strong>Can we find a promise in the Bible?</span></p>
+            <p><img src="assets/noa-transparent.png" alt=""><span><strong>Noa</strong>Yes! Read Genesis 12:1–3 and look for what God promises Abram.</span></p>
+            <a class="text-link" href="#promises-study">Explore Promises Kept →</a>
+          </div>
+        </details>
+        <details class="question-card question-noah" name="big-question">
+          <summary><span class="question-icon" aria-hidden="true">☁</span><span><small>NOAH &amp; THE ARK</small>What happened after the flood?</span></summary>
+          <div class="conversation">
+            <p><img src="assets/judah-transparent.png" alt=""><span><strong>Judah</strong>I wonder what Noah saw when he came out of the ark.</span></p>
+            <p><img src="assets/noa-transparent.png" alt=""><span><strong>Noa</strong>Let’s read Genesis 9:8–17 and look for the sign of God’s covenant.</span></p>
+            <a class="text-link" href="#noah-study">Explore the Noah study →</a>
+          </div>
+        </details>
+      </div>
+    </div>
+    <div class="activity-card" id="creation-activity">
+      <span class="kicker dark">TRY IT TOGETHER</span>
+      <h3>Go on a creation scavenger hunt</h3>
+      <p class="activity-intro">Grab your Bible, a pencil, and your curiosity!</p>
+      <ol>
+        <li>Read Genesis 1:1–5 together in your own Bible.</li>
+        <li>Look around and find three things in creation that make you curious.</li>
+        <li>Draw one of them. Ask: What do you notice? What would you like to ask God about it?</li>
+        <li>Take turns thanking God for something you found.</li>
+      </ol>
+      <p>This free activity is a taste of exploring Scripture together, not a page from the purchased study.</p>
+      <a class="text-link" href="#creation-study">Explore the Creation study →</a>
+    </div>
+  </div>
+</section>
 
+<section class="family-bundles" id="family-bundles">
+  <div class="section-heading">
+    <span class="kicker dark">CHOOSE YOUR STUDY</span>
+    <h2>JudahMeets Bible Studies</h2>
+    <p>Each study pairs a Bible Study Magazine for children with a Parent &amp; Family Guide that adds deeper Scripture study, discussion, teaching support, and family activities.</p>
+    <p>Not sure where to start? Choose the story that sparks your family’s curiosity: creation, God’s promise to Abram, or Noah and the ark.</p>
+    <p class="shipping-callout"><strong>Printed products:</strong> shipping and applicable taxes are additional and calculated by MagCloud at checkout.</p>
+  </div>
 
-  
+  <div class="magcloud-instructions" aria-label="How to order on MagCloud">
+    <span class="kicker dark">HOW TO ORDER</span>
+    <h3>Choose your study, then add both pieces on MagCloud.</h3>
+    <ol>
+      <li>Open the JudahMeets study you want.</li>
+      <li>Add the <strong>Bible Study Magazine</strong>.</li>
+      <li>Add the matching <strong>Parent &amp; Family Guide</strong>.</li>
+      <li>Checkout once with both items in your MagCloud cart.</li>
+    </ol>
+  </div>
+
+  <div class="study-series-grid">
+    <article class="study-series-card" id="creation-study">
+      <span class="study-label"><span aria-hidden="true">☀</span> THE BEGINNING</span>
+      <h3>JudahMeets Creation</h3>
+      <p class="study-hook">Explore the beginning of God’s story.</p>
+      <div class="study-cover-pair" aria-label="Creation Bible Study Magazine and Parent & Family Guide">
+        <img src="assets/creation-student-cover.png" alt="Judah Meets Creation Bible Study Magazine cover">
+        <img src="assets/creation-parent-cover.png" alt="Judah Meets Creation Parent & Family Guide cover">
+      </div>
+      <div class="study-product-list">
+        <div class="study-product">
+          <span>Bible Study Magazine</span>
+          <strong>$18.99 digital / $18.99 print + digital</strong>
+        </div>
+        <div class="study-product">
+          <span>Parent &amp; Family Guide</span>
+          <strong>$18.99 digital / $22.39 print + digital</strong>
+        </div>
+      </div>
+      <p class="study-total"><strong>Both pieces:</strong> $37.98 digital / $41.38 print + digital</p>
+      <p class="study-support-copy">Explore God’s creation with Judah and Noa. Designed for children ages 5–11, with a guide to help the whole family explore together.</p>
+      <a class="sample-link" href="https://www.magcloud.com/webviewer/3392998?isEmbedded=True" target="_blank" rel="noopener noreferrer">Preview the Creation parent guide on MagCloud (opens a new tab)</a>
+      <a class="btn primary collection-link" href="magcloud-creation.html">Order Creation</a>
+    </article>
+
+    <article class="study-series-card" id="promises-study">
+      <span class="study-label"><span aria-hidden="true">✦</span> FOLLOW THE PROMISE</span>
+      <h3>JudahMeets Promises Kept</h3>
+      <p class="study-hook">Follow a promise through generations.</p>
+      <div class="study-cover-pair" aria-label="Promises Kept Bible Study Magazine and Parent & Family Guide">
+        <img src="assets/promises-student-cover.png" alt="Judah Meets Promises Kept Bible Study Magazine cover">
+        <img src="assets/promises-parent-cover.png" alt="Judah Meets Promises Kept Parent & Family Guide cover">
+      </div>
+      <div class="study-product-list">
+        <div class="study-product">
+          <span>Bible Study Magazine</span>
+          <strong>$18.99 digital / $18.99 print + digital</strong>
+        </div>
+        <div class="study-product">
+          <span>Parent &amp; Family Guide</span>
+          <strong>$18.99 digital / $19.99 print + digital</strong>
+        </div>
+      </div>
+      <p class="study-total"><strong>Both pieces:</strong> $37.98 digital / $38.98 print + digital</p>
+      <p class="study-support-copy">Follow God’s promise from Abram to Isaac, with a child magazine and a guide for family discussion.</p>
+      <a class="sample-link" href="https://www.magcloud.com/webviewer/3393076?isEmbedded=True" target="_blank" rel="noopener noreferrer">Preview the Promises Kept parent guide on MagCloud (opens a new tab)</a>
+      <a class="btn primary collection-link" href="magcloud-promises-kept.html">Order Promises Kept</a>
+    </article>
+
+    <article class="study-series-card" id="noah-study">
+      <span class="study-label"><span aria-hidden="true">☁</span> NOAH &amp; THE ARK</span>
+      <h3>JudahMeets Noah</h3>
+      <p class="study-hook">Discover a story of rescue and new beginnings.</p>
+      <div class="study-cover-pair" aria-label="Noah Bible Study Magazine and Parent & Family Guide">
+        <img src="assets/noah-student-cover.png" alt="Judah Meets Noah Bible Study Magazine cover">
+        <img src="assets/noah-parent-family-guide-cover.png" alt="Judah Meets Noah Parent & Family Guide cover">
+      </div>
+      <div class="study-product-list">
+        <div class="study-product">
+          <span>Bible Study Magazine</span>
+          <strong>$18.99 digital / $18.99 print + digital</strong>
+        </div>
+        <div class="study-product">
+          <span>Parent &amp; Family Guide</span>
+          <strong>$19.99 digital / $21.99 print + digital</strong>
+        </div>
+      </div>
+      <p class="study-total"><strong>Both pieces:</strong> $38.98 digital / $40.98 print + digital</p>
+      <p class="study-support-copy">A 7-week study. The Parent &amp; Family Guide uses a day-by-day format with manageable teaching sessions, Scripture, memory verses, parent extras, discussion, and suggested prayer.</p>
+      <a class="sample-link" href="https://www.magcloud.com/webviewer/3401180?isEmbedded=True" target="_blank" rel="noopener noreferrer">Preview the Noah parent guide on MagCloud (opens a new tab)</a>
+      <a class="btn primary collection-link" href="magcloud-noah.html">Order Noah</a>
+    </article>
+  </div>
+
+  <p class="pricing-disclaimer">Prices shown are for one of each piece; MagCloud confirms current prices at checkout. Shipping for printed products and applicable taxes are additional. Purchases are fulfilled through MagCloud, our third-party printing and distribution provider.</p>
+</section>
 
 <section class="study-video" id="study-video">
   <div class="section-heading">
@@ -86,149 +246,6 @@
   </div>
 </section>
 
-
-<section class="curriculum-preview" id="curriculum-preview">
-  <div class="curriculum-board">
-    <div class="curriculum-board-heading">
-      <div class="chalk-stars">— ☆ ☆ —</div>
-      <h2>BIBLE STUDIES &amp; CURRICULUM</h2>
-      <div class="chalk-subtitle">Help kids know God’s story and grow in their faith!</div>
-    </div>
-
-    <div class="curriculum-scene">
-      <figure class="curriculum-cover curriculum-cover-left">
-        <img src="assets/promises-kept-cover.png" alt="Judah Meets Promises Kept — From Abram to Isaac">
-      </figure>
-
-      <div class="curriculum-center-copy">
-        <p>
-          Judah Meets Bible Studies make learning Scripture exciting and meaningful
-          with engaging lessons and printable curriculum. Perfect for families,
-          homeschool, and Sunday School!
-        </p>
-        <div class="chalk-bible" aria-hidden="true">✝<br>📖</div>
-        <div class="one-story">One Bible.<br>One Story.<br>All About Jesus.</div>
-      </div>
-
-      <figure class="curriculum-cover curriculum-cover-right">
-        <img src="assets/creation-cover.png" alt="Judah Meets Creation">
-      </figure>
-    </div>
-
-    <div class="coming-soon-plank">
-      <strong>★ &nbsp; MORE BIBLE STUDIES COMING SOON! &nbsp; ★</strong>
-      <span>New adventures through God’s Word are on the way.<br>Stay tuned!</span>
-    </div>
-  </div>
-</section>
-
-
-<section class="guides" id="guides">
-  <div class="section-heading light">
-    <span class="kicker">YOUR GUIDES THROUGH THE STORY</span>
-    <h2>Meet Judah &amp; Noa</h2>
-    <p>Two very different personalities. One great friendship. A lot of questions.</p>
-  </div>
-
-  <div class="meet-guides-feature">
-    <img src="assets/meet-judah-noa.png" alt="Meet Judah and Noa">
-  </div>
-
-  <div class="duo-note">
-    <strong>Better together.</strong>
-    <p>Judah brings curiosity and momentum. Noa brings wisdom, courage, encouragement, and a well-timed reality check. Together they ask big questions, explore Scripture, and follow God's promises through one mighty story.</p>
-  </div>
-</section>
-
-
-  
-
-  
-<section class="family-bundles" id="family-bundles">
-  <div class="section-heading">
-    <span class="kicker dark">CHOOSE YOUR STUDY</span>
-    <h2>JudahMeets Bible Studies</h2>
-    <p>Each study pairs a Bible Study Magazine for children with a Parent &amp; Family Guide that adds deeper Scripture study, discussion, teaching support, and family activities.</p>
-    <p class="shipping-callout"><strong>Printed products:</strong> shipping and applicable taxes are additional and calculated by MagCloud at checkout.</p>
-  </div>
-
-  <div class="magcloud-instructions" aria-label="How to order on MagCloud">
-    <span class="kicker dark">HOW TO ORDER</span>
-    <h3>Choose your study, then add both pieces on MagCloud.</h3>
-    <ol>
-      <li>Open the JudahMeets study you want.</li>
-      <li>Add the <strong>Bible Study Magazine</strong>.</li>
-      <li>Add the matching <strong>Parent &amp; Family Guide</strong>.</li>
-      <li>Checkout once with both items in your MagCloud cart.</li>
-    </ol>
-  </div>
-
-  <div class="study-series-grid">
-    <article class="study-series-card">
-      <h3>JudahMeets Creation</h3>
-      <div class="study-cover-pair" aria-label="Creation Bible Study Magazine and Parent & Family Guide">
-        <img src="assets/creation-student-cover.png" alt="Judah Meets Creation Bible Study Magazine cover">
-        <img src="assets/creation-parent-cover.png" alt="Judah Meets Creation Parent & Family Guide cover">
-      </div>
-      <div class="study-product-list">
-        <div class="study-product">
-          <span>Bible Study Magazine</span>
-          <strong>$18.99 digital / $18.99 print</strong>
-        </div>
-        <div class="study-product">
-          <span>Parent &amp; Family Guide</span>
-          <strong>$18.99 digital / $18.99 print</strong>
-        </div>
-      </div>
-      <p class="study-support-copy">Designed for kids ages 5–11, with engaging characters that interact with Scripture. The Parent &amp; Family Guide expands the study for the whole family.</p>
-      <a class="btn primary collection-link" href="magcloud-creation.html">Open JudahMeets Creation</a>
-    </article>
-
-    <article class="study-series-card">
-      <h3>JudahMeets Promises Kept</h3>
-      <div class="study-cover-pair" aria-label="Promises Kept Bible Study Magazine and Parent & Family Guide">
-        <img src="assets/promises-student-cover.png" alt="Judah Meets Promises Kept Bible Study Magazine cover">
-        <img src="assets/promises-parent-cover.png" alt="Judah Meets Promises Kept Parent & Family Guide cover">
-      </div>
-      <div class="study-product-list">
-        <div class="study-product">
-          <span>Bible Study Magazine</span>
-          <strong>$18.99 digital / $18.99 print</strong>
-        </div>
-        <div class="study-product">
-          <span>Parent &amp; Family Guide</span>
-          <strong>$18.99 digital / $18.99 print</strong>
-        </div>
-      </div>
-      <p class="study-support-copy">Follow God’s promise from Abram to Isaac with the same family-study format: child magazine plus Parent &amp; Family Guide.</p>
-      <a class="btn primary collection-link" href="magcloud-promises-kept.html">Open JudahMeets Promises Kept</a>
-    </article>
-
-    <article class="study-series-card">
-      <h3>JudahMeets Noah</h3>
-      <div class="study-cover-pair" aria-label="Noah Bible Study Magazine and Parent & Family Guide">
-        <img src="assets/noah-student-cover.png" alt="Judah Meets Noah Bible Study Magazine cover">
-        <img src="assets/noah-parent-family-guide-cover.png" alt="Judah Meets Noah Parent & Family Guide cover">
-      </div>
-      <div class="study-product-list">
-        <div class="study-product">
-          <span>Bible Study Magazine</span>
-          <strong>$18.99 digital / $18.99 print</strong>
-        </div>
-        <div class="study-product">
-          <span>Parent &amp; Family Guide</span>
-          <strong>$19.99 digital / $21.99 print</strong>
-        </div>
-      </div>
-      <p class="study-support-copy">A 7-week study. The Parent &amp; Family Guide uses a day-by-day format with manageable teaching sessions, Scripture, memory verses, parent extras, discussion, and suggested prayer.</p>
-      <a class="btn primary collection-link" href="magcloud-noah.html">Open JudahMeets Noah</a>
-    </article>
-  </div>
-
-  <p class="pricing-disclaimer">Purchases are fulfilled through MagCloud, our third-party printing and distribution provider.</p>
-</section>
-
-
 <section class="parents chalkboard" id="parents">
     <div class="parents-inner">
       <div>
@@ -246,13 +263,38 @@
       </div>
     </div>
   </section>
-<section class="signin" id="signin">
-    <div class="signin-card">
-      <span class="kicker dark">COMING SOON</span>
-      <h2>My Adventures</h2>
-      <p>Parent access will eventually live here for single-study, semester, and annual plans.</p>
-    </div>
-  </section>
+<section class="family-faq" id="faq">
+  <div class="section-heading">
+    <span class="kicker dark">GOOD TO KNOW</span>
+    <h2>Questions from families</h2>
+  </div>
+  <div class="faq-list">
+    <details>
+      <summary>Do I need the child magazine and the parent guide?</summary>
+      <p>We recommend both for the complete family study. The child magazine invites kids into the story; the matching guide adds Scripture study, discussion, teaching support, and family activities. They are purchased separately on MagCloud.</p>
+    </details>
+    <details>
+      <summary>How can I see what a study is like?</summary>
+      <p>Choose a parent-guide preview on a study card to view the sample on MagCloud. You can also try our <a href="#mini-adventure">free family activity</a> here on Judah Meets.</p>
+    </details>
+    <details>
+      <summary>What is the difference between print and digital?</summary>
+      <p>MagCloud offers digital editions and printed editions. Check each publication’s MagCloud page for its available formats and what is included before ordering.</p>
+    </details>
+    <details>
+      <summary>Who handles my order, shipping, and returns?</summary>
+      <p>MagCloud handles checkout and fulfillment. Shipping and applicable taxes are calculated at checkout. For order assistance or current policies, visit <a href="https://www.magcloud.com/help" target="_blank" rel="noopener noreferrer">MagCloud Help (opens a new tab)</a>.</p>
+    </details>
+    <details>
+      <summary>Can I use a study with multiple children or at church?</summary>
+      <p>We would be happy to discuss your situation and answer questions about group use and permissions. <a href="#contact">Contact us</a> before ordering.</p>
+    </details>
+    <details>
+      <summary>Which Bible translation is used?</summary>
+      <p>Translation information can vary by publication. Check the publication details on MagCloud or <a href="#contact">contact us</a> for a specific study.</p>
+    </details>
+  </div>
+</section>
 </main>
 
 <section class="contact-section" id="contact">

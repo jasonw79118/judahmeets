@@ -1,4 +1,14 @@
-const b=document.querySelector('.menu-toggle'),n=document.querySelector('nav');b?.addEventListener('click',()=>n.classList.toggle('open'));document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>n.classList.remove('open')));
+const menuButton = document.querySelector('.menu-toggle');
+const navigation = document.getElementById('site-nav');
+if (menuButton && navigation) {
+  const setMenuOpen = open => {
+    navigation.classList.toggle('open', open);
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  };
+  menuButton.addEventListener('click', () => setMenuOpen(!navigation.classList.contains('open')));
+  navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
+}
 
 
 
